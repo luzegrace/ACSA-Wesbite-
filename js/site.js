@@ -89,6 +89,7 @@ function setup() {
     extraCanvas = createGraphics(windowWidth, windowHeight, WEBGL);
     extraCanvas.clear();
     imageMode(CENTER);
+    //createCanvas.parent('popup-modal');
 
     tileCount = Math.ceil(Math.sqrt(projects.length));
     tileWidth = width / tileCount;
@@ -211,26 +212,45 @@ function updateProjectSelectionState(targetProjectIndex) {
 function mousePressed() {
     // cycle through each project to find the first project that
     var matchingProjectIndex = findMatchingProjectIndex(mouseX, mouseY);
+    var modal = document.getElementById("popup-modal");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    //I tried to add these to see if it worked.
+    // modal.appendChild(span);
+    // var content = document.getElementsByClassName("modal-content");
 
     if (matchingProjectIndex >= 0 && matchingProjectIndex != selectedProjectIndex) {
         // update the project selection to reduce excess work performed during draw loop
         updateProjectSelectionState(matchingProjectIndex);
 
+        modal.style.display = "block";
+
+    //my various attempts.....
+        //modal.style.display = "block" + projects[matchingProjectIndex].title;
+        //matchingProjectIndex((projects[matchingProjectIndex].title))
+        //(projects[matchingProjectIndex].title) (modal.style.display = ("block")) = content;
+        //projects[matchingProjectIndex].title = document.getElementById("popup-modal");
+
         // a new project was selected
-        console.log("Luz: Open or update modal dialog: Titile: " + projects[matchingProjectIndex].title)
+       // console.log("Luz: Open or update modal dialog: Title: " + projects[matchingProjectIndex].title)
 
     }
     else if (selectedProjectIndex >= 0 && matchingProjectIndex == -1) {
         // update the project selection to reduce excess work performed during draw loop
         updateProjectSelectionState(matchingProjectIndex);
 
+    //this works but kind of like if i click on the modal itself it disappears too
+         modal.style.display = "none";
+         //span.style.display = "none";
+
         // current project was unselected, so close dialog
-        console.log("Luz: Close modal dialog")
-    }  
+       // console.log("Luz: Close modal dialog")
+
+    }
     else {
         // nothing has changed so do nothing
     }
-
 }
 
 $(document).ready(function () {
