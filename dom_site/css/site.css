@@ -78,7 +78,6 @@ divbg {
 }
 
 
-
 /*INTRO*/
 .logoload {
   /* SET BACKGROUND COLOR */
@@ -95,4 +94,17 @@ divbg {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("https://www.acsa-arch.org/wp-content/uploads/2021/02/2019_ACSA_Logotype_Black-300x63.png");
+}
+
+/*PNG filters*/
+.disabled {
+    filter: grayscale(100%) blur(10px);
+}
+
+.active {
+    filter: invert(24%) sepia(96%) saturate(7463%) hue-rotate(359deg) brightness(97%) contrast(117%);
+}
+
+.related {
+
 }
