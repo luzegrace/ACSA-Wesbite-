@@ -2,7 +2,7 @@
 var ShapeSize = 50;
 var ClickDistance = 25;
 var ShapeAngleOffsetRatio = 227 / 180;
-var CanvasTop = 70;
+var CanvasTop = 175;
 var ArrowUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/images/orange-arrowpng.png";
 var LineUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/images/orange-arrownone.png";
 var RedDot = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/images/red-dotpng.png";
@@ -12,12 +12,14 @@ var MinTileWidth = 90;
 var MinTileHeight = 90;
 var ImageHeight = 80;
 var ImageWidth = 80;
-var sphere ="https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/images/red-dot.png";
+var sphere = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/images/red-dot.png";
 
 // variables
 var shapes;
 var selectedProjectIndex = -1;
 var canvas;
+var tileHeight;
+var tileWidth;
 let extraCanvas;
 
 
@@ -204,24 +206,36 @@ pixelDensity(1);
     configureProjectPositions();
 }
 
+function randomValue(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 function configureProjectPositions() {
     //tiledimensioncount sets where each project is populated ....
     var tileDimensionCount = Math.ceil(Math.sqrt(projects.length));
     var idealTileWidth = width / tileDimensionCount;
     var idealTileHeight = height / tileDimensionCount;
-    var tileWidth = Math.max(MinTileWidth, Math.min(MaxTileWidth, idealTileWidth));
-    var tileHeight = Math.max(MinTileHeight, Math.min(MaxTileHeight, idealTileHeight));
+    tileWidth = Math.max(MinTileWidth, Math.min(MaxTileWidth, idealTileWidth));
+    tileHeight = Math.max(MinTileHeight, Math.min(MaxTileHeight, idealTileHeight));
     var tileWidthOffset = tileWidth / 2;
     var tileHeightOffset = tileHeight / 2;
 
     var projectIndex = 0;
     for (var gridY = 0; gridY < tileDimensionCount; gridY++) {
-        for (var gridX = 0; gridX < tileDimensionCount  && projectIndex < projects.length; gridX++, projectIndex++) {
+        for (var gridX = 0; gridX < tileDimensionCount && projectIndex < projects.length; gridX++, projectIndex++) {
+            projects[projectIndex].tileX = tileWidth * gridX;
+            projects[projectIndex].tileY = tileHeight * gridY;
+
             // the offsets place the drawings in the center of a given tile
             projects[projectIndex].posX = tileWidth * gridX + tileWidthOffset;
             projects[projectIndex].posY = tileHeight * gridY + tileHeightOffset;
             projects[projectIndex].angle = 0;
             projects[projectIndex].related = false;
+
+            let hue = Math.max(0, Math.floor((projectIndex * 0.8) - 5));
+            let saturation = randomValue(90, 100);
+            let lightness = randomValue(49, 51);
+            projects[projectIndex].background = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
             //was trying out fill
             //projects[projectIndex].fill = random(255);
 
@@ -262,6 +276,10 @@ function draw() {
             angle = atan2(posY - mouseY, posX - mouseX);
         }
 
+        renderTile(
+            projects[projectIndex].tileX,
+            projects[projectIndex].tileY,
+            color(projects[projectIndex].background));
         renderShape(posX, posY, angle, currentShape);
     }
 //just experimenting with coloring the cells in the array
@@ -270,7 +288,7 @@ function draw() {
     for(var x = 0; x <width; x++) {
         var index = (x + y * width)*4;
             pixels[index+0] = x;
-            pixels[index+1] = random(255);
+            pixels[index + 1] = 255; //random(255);
             pixels[index+2] = y;
             pixels[index+3] = 255;
            
@@ -279,20 +297,28 @@ function draw() {
 //updatePixels();
 }
 
-
-
-function renderShape(posX, posY, angle, shape) {
+function renderTile(posX, posY, color) {
     push();
     translate(posX, posY);
+    fill(color);
+    rect(0, 0, tileWidth, tileHeight);
+    pop();
+}
 
+
+function renderShape(posX, posY, angle, shape, color) {
+    push();
+    translate(posX, posY);
 
     // rotate to compensate for image tilt
     rotate(ShapeAngleOffsetRatio * PI);
 
     // rotate image by requested angle
     rotate(angle);
+
     noStroke();
     image(shape, 0, 0, ImageWidth, ImageHeight);
+
     pop();
 }
 
