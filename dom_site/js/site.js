@@ -4,10 +4,23 @@ var siteModule = (function () {
     var init = function () {
         fadeOutLogo();
         buildProjectTiles();
+        configureCollapsibleButtons();
+        configurePopupModal();
         toggleMouseResponse(true);
     };
 
+    var showNav = function () {
+        $("#myNav").show();
+    }
+
+    var hideNav = function () {
+        $("#myNav").hide();
+    }
+
     // private
+    var arrowImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-arrow-transparent.png";
+    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Whitedot.png";
+
     var fadeOutLogo = function () {
         $(window).load(function () {
             $(".logoload").delay(500).fadeOut(1000);
@@ -17,10 +30,14 @@ var siteModule = (function () {
     var buildProjectTiles = function () {
         let grid = $("#projectGrid");
         dataModule.projects.forEach(function (project, i) {
-            var divbg = $("<divbg><grid-item><img src=\"https://www.freeiconspng.com/thumbs/white-arrow-png/white-arrow-transparent-png-21.png\" /></grid-item></divbg>");
+            var divbg = $(`<divbg><grid-item><img src="${arrowImageUrl}" /></grid-item></divbg>`);
             divbg.appendTo(grid);
+
+            // set div bg background color
             project.color = getRandomBackgroundColor(i);
             divbg.css("background-color", project.color);
+
+            // configure grid item image attributes
             var gridItemImage = divbg.find("grid-item img");
             gridItemImage.attr("alt", project.title);
             gridItemImage.attr("title", project.title);
@@ -99,13 +116,22 @@ var siteModule = (function () {
             toggleMouseResponse(false);
             dataModule.projects.forEach(function (project, i) {
                 if (i == index) {
-                    project.ref.addClass("active").removeClass("related disabled");
+                    project.ref
+                        .addClass("active")
+                        .removeClass("related disabled")
+                        .attr("src", dotImageUrl);
                 }
                 else if (doTagsIntersect(i, index)) {
-                    project.ref.addClass("related").removeClass("active disabled");
+                    project.ref
+                        .addClass("related")
+                        .removeClass("active disabled")
+                        .attr("src", arrowImageUrl);
                 }
                 else {
-                    project.ref.addClass("disabled").removeClass("active related");
+                    project.ref
+                        .addClass("disabled")
+                        .removeClass("active related")
+                        .attr("src", arrowImageUrl);
                 }
             });
 
@@ -114,9 +140,13 @@ var siteModule = (function () {
             var centerX = (targetOffset.left) + (gridItem.width() / 2);
             var centerY = (targetOffset.top) + (gridItem.height() / 2);
             $("grid-item img").trigger("site.rotateImg", [centerX, centerY]);
+            showProjectData(index, clickEvent);
         }
         else {
-            $("grid-item img").removeClass("active related disabled");      
+            hideProjectData();
+            $("grid-item img")
+                .removeClass("active related disabled")
+                .attr("src", arrowImageUrl);
             $("grid-item img").trigger("site.rotateImg", [clickEvent.pageX, clickEvent.pageY]);
             toggleMouseResponse(true);
         }
@@ -135,38 +165,57 @@ var siteModule = (function () {
         }
     }
 
-    
+    var configureCollapsibleButtons = function () {
+        $(document).on(
+            "click",
+            ".collapsible button",
+            function (e) {
+                $(this).parent().find(".content").toggle();
+            });
+    }
 
-//var modalSelected = function() {
-// let toggleMouseResponse
-    //    var modal = $("#popup-modal");
-       // modal.find("h1.title").html(projects[projectIndex].title);
-       // modal.find("p.description").html(projects[projectIndex].description);
-       // modal.find("p.image img").attr("src", projects[projectIndex].image);
-      //  modal.find("p.tags").html(projects[projectIndex].tags.join(", "));
-    
-      // if ($.mobile.popup.active && $.mobile.popup.active.element[0] === modal[0]) {
-      //  $("#popup-modal").popup("reposition", { x: posX, y: posY });}
-     // else { $("#popup-modal").popup("open", { x: posX, y: posY });}
-    
-    //  var modalClick = function () {
-      // let modal = $("#popup-modal");
-      //  dataModule.projects.forEach(function (){
-      //      modal.style.display = "block"; } }
+    var configurePopupModal = function () {
+        $("#popup-modal").dialog({
+            autoOpen: false,
+            width: 500, // may need be dynamic based on window size
+            resizable: false
+        });
+    }
 
+    var showProjectData = function (projectIndex, clickEvent) {
+        //this is referencing css ?
+        var selectedProject = dataModule.projects[projectIndex];
+        var modal = $("#popup-modal");
+        modal.find("h1.title").html(selectedProject.title);
+        modal.find("p.description").html(selectedProject.description);
+        modal.find("p.image img").attr("src", selectedProject.image);
+        modal.find("p.tags").html(selectedProject.tags.join(", "));
 
-  //  var modal = $("#popup-modal");
+        $("#popup-modal")
+            .dialog(
+                "option",
+                "position",
+                {
+                    my: "left+10 bottom-10",
+                    of: clickEvent,
+                    collision: "fit"
+                }
+            )
+            .dialog("open");
+    }
 
-//    modal.onclick = function() {
-   //   modal.style.display = "block";
+    var hideProjectData = function () {
+        $("#popup-modal").dialog("close");
+    }
 
-
-
-
-
+    var luzPlayground = function () {
+        // luz puts her code here
+    }
 
     return {
-        init: init
+        init: init,
+        showNav: showNav,
+        hideNav: hideNav
     };
 })();
 
