@@ -4,10 +4,22 @@ var siteModule = (function () {
     var init = function () {
         fadeOutLogo();
         buildProjectTiles();
+        configureCollapsibleButtons();
         toggleMouseResponse(true);
     };
 
+    var showNav = function () {
+        $("#myNav").show();
+    }
+
+    var hideNav = function () {
+        $("#myNav").hide();
+    }
+
     // private
+    var arrowImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-arrow-transparent.png";
+    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Whitedot.png";
+
     var fadeOutLogo = function () {
         $(window).load(function () {
             $(".logoload").delay(500).fadeOut(1000);
@@ -17,10 +29,14 @@ var siteModule = (function () {
     var buildProjectTiles = function () {
         let grid = $("#projectGrid");
         dataModule.projects.forEach(function (project, i) {
-            var divbg = $("<divbg><grid-item><img src=\"https://www.freeiconspng.com/thumbs/white-arrow-png/white-arrow-transparent-png-21.png\" /></grid-item></divbg>");
+            var divbg = $(`<divbg><grid-item><img src="${arrowImageUrl}" /></grid-item></divbg>`);
             divbg.appendTo(grid);
+
+            // set div bg background color
             project.color = getRandomBackgroundColor(i);
             divbg.css("background-color", project.color);
+
+            // configure grid item image attributes
             var gridItemImage = divbg.find("grid-item img");
             gridItemImage.attr("alt", project.title);
             gridItemImage.attr("title", project.title);
@@ -99,13 +115,22 @@ var siteModule = (function () {
             toggleMouseResponse(false);
             dataModule.projects.forEach(function (project, i) {
                 if (i == index) {
-                    project.ref.addClass("active").removeClass("related disabled");
+                    project.ref
+                        .addClass("active")
+                        .removeClass("related disabled")
+                        .attr("src", dotImageUrl);
                 }
                 else if (doTagsIntersect(i, index)) {
-                    project.ref.addClass("related").removeClass("active disabled");
+                    project.ref
+                        .addClass("related")
+                        .removeClass("active disabled")
+                        .attr("src", arrowImageUrl);
                 }
                 else {
-                    project.ref.addClass("disabled").removeClass("active related");
+                    project.ref
+                        .addClass("disabled")
+                        .removeClass("active related")
+                        .attr("src", arrowImageUrl);
                 }
             });
 
@@ -116,7 +141,9 @@ var siteModule = (function () {
             $("grid-item img").trigger("site.rotateImg", [centerX, centerY]);
         }
         else {
-            $("grid-item img").removeClass("active related disabled");      
+            $("grid-item img")
+                .removeClass("active related disabled")
+                .attr("src", arrowImageUrl);
             $("grid-item img").trigger("site.rotateImg", [clickEvent.pageX, clickEvent.pageY]);
             toggleMouseResponse(true);
         }
@@ -135,6 +162,29 @@ var siteModule = (function () {
         }
     }
 
+    var configureCollapsibleButtons = function () {
+        $(document).on(
+            "click",
+            ".collapsible button",
+            function (e) {
+                $(this).parent().find(".content").toggle();
+            });
+        /*// COLLAPSIBLE BUTTONS //
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}*/
+    }
     
 
 //var modalSelected = function() {
@@ -160,13 +210,10 @@ var siteModule = (function () {
 //    modal.onclick = function() {
    //   modal.style.display = "block";
 
-
-
-
-
-
     return {
-        init: init
+        init: init,
+        showNav: showNav,
+        hideNav: hideNav
     };
 })();
 
