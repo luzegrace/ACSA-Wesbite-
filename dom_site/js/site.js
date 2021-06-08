@@ -19,7 +19,7 @@ var siteModule = (function () {
         dataModule.projects.forEach(function (project, i) {
             var divbg = $("<divbg><grid-item><img src=\"https://www.freeiconspng.com/thumbs/white-arrow-png/white-arrow-transparent-png-21.png\" /></grid-item></divbg>");
             divbg.appendTo(grid);
-            project.color = getRandomBackgroundColor(i);            
+            project.color = getRandomBackgroundColor(i);
             divbg.css("background-color", project.color);
             var gridItemImage = divbg.find("grid-item img");
             gridItemImage.attr("alt", project.title);
@@ -134,6 +134,36 @@ var siteModule = (function () {
             $(document).off("mousemove");
         }
     }
+
+    
+
+//var modalSelected = function() {
+// let toggleMouseResponse
+    //    var modal = $("#popup-modal");
+       // modal.find("h1.title").html(projects[projectIndex].title);
+       // modal.find("p.description").html(projects[projectIndex].description);
+       // modal.find("p.image img").attr("src", projects[projectIndex].image);
+      //  modal.find("p.tags").html(projects[projectIndex].tags.join(", "));
+    
+      // if ($.mobile.popup.active && $.mobile.popup.active.element[0] === modal[0]) {
+      //  $("#popup-modal").popup("reposition", { x: posX, y: posY });}
+     // else { $("#popup-modal").popup("open", { x: posX, y: posY });}
+    
+    //  var modalClick = function () {
+      // let modal = $("#popup-modal");
+      //  dataModule.projects.forEach(function (){
+      //      modal.style.display = "block"; } }
+
+
+  //  var modal = $("#popup-modal");
+
+//    modal.onclick = function() {
+   //   modal.style.display = "block";
+
+
+
+
+
 
     return {
         init: init

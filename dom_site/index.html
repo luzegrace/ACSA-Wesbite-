@@ -1,18 +1,99 @@
 <html>
-<head>
+  <header>
     <link rel="stylesheet" href="css/site.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="./js/data.js"></script>
     <script src="./js/site.js"></script>
-</head>
-<body>
-    <div class="header">ACSA - EAAE 2021 + PRATT SoA + AHO</div>
-    <div class="logoload"></div>
-    <div id="projectGrid" class="grid">
-    </div>
-    <div class="footer">ACSA - EAAE 2021 + PRATT SoA + AHO</div>
+    <script src="./js/site3.js"></script>
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <button class="collapsible"><a href="#">ABOUT THIS SITE</a></button>
+<div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div>
+<p><button class="collapsible"><a href="#">ABOUT THE CONFERENCE</a></button>
+</button>
+   <p><button class="collapsible"><a href="#">CONTACT</a></button>
+  </div>
+</div>
+<div class="topnav">
+   <div class="hamburger-shell" onclick="openNav()">
+		      <div class="ham1"></div>
+			    <div class="ham2"></div>
+          <div class="ham3"></div>
+   </div>
+     
+     <div class="icon"><img src="https://static1.squarespace.com/static/5e6ff2bc452685367c11cb1c/t/60bc081f5d57653c250fb598/1622935583183/ACSA_WhiteWeb5Artboard+1.png"></div>
+     <div class="buttoncontainer"> 
+       <a href="https://www.acsa-arch.org/conference/2021-acsa-eaae-teachers-conference"><button class="button">PLENARIES</button><button class="button">EVENTS</button></a><div class="dropdown"><button class="dropbtn">SESSIONS</button><div class="dropdown-content">
+  <a href="#">Monstrous Infrastructure</a>
+  <a href="#">Unlearning Architecture</a>
+  <a href="#">Abstract by Design</a>
+  <a href="#">Closing the Loop</a>
+  <a href="#">Architecture of Migration</a>
+  <a href="#">Inhabiting the Hyrdosphere</a>
+  <a href="#">The Climate Classroom</a>
+  <a href="#">Charter for Health + Justice</a>
+  <a href="#">Design Agency</a>
+  <a href="#">Environmental Morphology</a>
+       </div></div><button class="button">EXHIBITION</button>
+         
+     </div>
+  
+  <input type="text" placeholder="SEARCH..">
+</div>
+  </Div>
+  <div class="logoload"></div>
+</header>
+
+  <body>
+
+    <!-- Modal setup -->
+    <div data-role="popup" id="popup-modal"  data-arrow="true">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <div class="ui-header" >
+         <!-- <a class="ui-btn-left ui-btn-corner-all ui-btn">-->
+              <img />
+          </a>
+          <h1 class="title"></h1>
+      </div>
+      <div role="main" class="ui-content">
+          <p class="description"></p>
+          <p class="image">
+              <!--<img/>-->
+
+          </p>
+          <div class="ui-footer">
+              <p class="tags"></p>
+          </div>
+      </div>
+  </div>
+
+
+
 </body>
+<div class="footcontainer">
+    <div class="footer1"><a href="">&#64;ACSA</a></div>
+    <div class="footer1"><a href="">&#64;EAAE</a></div>
+    <div class="footer1"><a href="">&#64;PRATTSoA</a></div>
+    <div class="footer1"><a href="">&#64;AHO</a></div>    
+  </div>
+  <div class="footright">Copyright &copy;2021 ACSA + PRATTSoA</div>
+<script>
+$(window).load(function() {
+    $(".logoload").delay(500).fadeOut(1000);
+})
+</script>
+
+
 </html>
 
 
