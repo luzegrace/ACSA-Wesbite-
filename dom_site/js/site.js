@@ -5,6 +5,7 @@ var siteModule = (function () {
         fadeOutLogo();
         buildProjectTiles();
         configureCollapsibleButtons();
+        configurePopupModal();
         toggleMouseResponse(true);
     };
 
@@ -139,8 +140,10 @@ var siteModule = (function () {
             var centerX = (targetOffset.left) + (gridItem.width() / 2);
             var centerY = (targetOffset.top) + (gridItem.height() / 2);
             $("grid-item img").trigger("site.rotateImg", [centerX, centerY]);
+            showProjectData(index, clickEvent);
         }
         else {
+            hideProjectData();
             $("grid-item img")
                 .removeClass("active related disabled")
                 .attr("src", arrowImageUrl);
@@ -169,46 +172,45 @@ var siteModule = (function () {
             function (e) {
                 $(this).parent().find(".content").toggle();
             });
-        /*// COLLAPSIBLE BUTTONS //
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
     }
-  });
-}*/
+
+    var configurePopupModal = function () {
+        $("#popup-modal").dialog({
+            autoOpen: false,
+            width: 500, // may need be dynamic based on window size
+            resizable: false
+        });
     }
-    
 
-//var modalSelected = function() {
-// let toggleMouseResponse
-    //    var modal = $("#popup-modal");
-       // modal.find("h1.title").html(projects[projectIndex].title);
-       // modal.find("p.description").html(projects[projectIndex].description);
-       // modal.find("p.image img").attr("src", projects[projectIndex].image);
-      //  modal.find("p.tags").html(projects[projectIndex].tags.join(", "));
-    
-      // if ($.mobile.popup.active && $.mobile.popup.active.element[0] === modal[0]) {
-      //  $("#popup-modal").popup("reposition", { x: posX, y: posY });}
-     // else { $("#popup-modal").popup("open", { x: posX, y: posY });}
-    
-    //  var modalClick = function () {
-      // let modal = $("#popup-modal");
-      //  dataModule.projects.forEach(function (){
-      //      modal.style.display = "block"; } }
+    var showProjectData = function (projectIndex, clickEvent) {
+        //this is referencing css ?
+        var selectedProject = dataModule.projects[projectIndex];
+        var modal = $("#popup-modal");
+        modal.find("h1.title").html(selectedProject.title);
+        modal.find("p.description").html(selectedProject.description);
+        modal.find("p.image img").attr("src", selectedProject.image);
+        modal.find("p.tags").html(selectedProject.tags.join(", "));
 
+        $("#popup-modal")
+            .dialog(
+                "option",
+                "position",
+                {
+                    my: "left+10 bottom-10",
+                    of: clickEvent,
+                    collision: "fit"
+                }
+            )
+            .dialog("open");
+    }
 
-  //  var modal = $("#popup-modal");
+    var hideProjectData = function () {
+        $("#popup-modal").dialog("close");
+    }
 
-//    modal.onclick = function() {
-   //   modal.style.display = "block";
+    var luzPlayground = function () {
+        // luz puts her code here
+    }
 
     return {
         init: init,
