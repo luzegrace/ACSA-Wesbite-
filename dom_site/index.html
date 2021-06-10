@@ -12,7 +12,6 @@
 <body>
     <header>
         <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="siteModule.hideNav()">&times;</a>
             <div class="overlay-content">
                 <div class="collapsible">
                     <button type="button">ABOUT THIS SITE</button>
@@ -66,7 +65,7 @@
         </div>
 
         <div class="topnav">
-            <div class="hamburger-shell" onclick="siteModule.showNav()">
+            <div id="navButton" class="hamburger-shell" onclick="siteModule.toggleNav()">
                 <div class="ham1"></div>
                 <div class="ham2"></div>
                 <div class="ham3"></div>
@@ -94,7 +93,7 @@
                 <a class="button" href="#">EXHIBITION</a>
             </div>
 
-            <input type="text" placeholder="SEARCH.." />
+            <input id="textSearch" type="text" placeholder="SEARCH.." />
         </div>
     </header>
 

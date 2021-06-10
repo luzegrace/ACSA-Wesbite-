@@ -124,6 +124,10 @@ body {
     /*outline: 5px solid yellow;*/
 }
 
+.hamburger-shell.nav-open {
+    background-color: blue;
+}
+
 .ham1, .ham2, .ham3 {
     width: 25px;
     height: 3px;
@@ -315,8 +319,18 @@ grid-item {
 }
 
     grid-item img {
-        width: 256px;
-        height: 256px;
+        width: 100%;
+        height: auto;
+        min-height: 64px;
+        max-height: 128px;
+        min-width: 64px;
+        max-width: 128px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
     }
 
 /*
@@ -389,7 +403,7 @@ grid-item {
 
 /*PNG filters*/
 .disabled {
-    filter: grayscale(100%) blur(10px);
+    filter: opacity(10%);
 }
 
 .active {
@@ -398,4 +412,12 @@ grid-item {
 
 .related {
     filter: invert(100%) saturate(63%) hue-rotate(359deg) brightness(97%);
+}
+
+.match {
+    filter: sepia(100%);
+}
+
+.nomatch {
+    filter: opacity(10%);
 }

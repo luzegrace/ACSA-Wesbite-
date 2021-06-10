@@ -1,4 +1,29 @@
 ﻿var dataModule = (function () {
+    /*project: {
+	title: "",
+	description: "",
+	tags: ["", ""]
+	people: [{
+		role: "", // primary, collaborator
+		firstName: ""
+		lastName: ""
+		honorific: ""
+	}],
+	images: [{
+		url: "",
+		title: ""
+	}],
+	links: [{
+		url: "",
+		title: "",
+		description: ""
+	}],
+	session: "",
+	exhibition: "",
+	event: "",
+	plenary: ""
+    }*/
+
     var projects = [
         { title: "project 1", description: "Phasellus sit amet erat.", tags: ["human-resource", "Yellow", "Fucun"], icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJQSURBVDjLjZNvSBNxGMeX9O+FOAkaLbehozdGRGiMQqTIlEqJMIig3oxl0YxcgYt6FUZRryLYwpFWCr2wXgjBIMJMYhFjgZSiEXOg5c5N593udne7u+2+3V3tT22SBx/uxe/5fu7uuefRAdCpKJdJoVHB9h9qFSryuSJBYzqdpiRJymYyGZRDOYfH43lULCkW2NRwKpUCy7J5kskkSJJELBbTJARBwOv15iW58AZVoBbwPA9BELS7CsMwoCgK8XhcE3AcB/UhPp/vtyQnGBi03pYXjyAbPQuRD2sSbmUFVN9NLJ5ux9DryZJP0nqiChzjl48Oh9oYRPTAXBVksgnS0hRWu7uxXG/EfL0ZZ9yjGHgb1t4kGo0WBO6AvcUVsFP9oTZZjlQCP7ZA/r4JpHM3lup2Im6pRsRai2PX/GjoDWEk8BWJRKIg6P147mfP+CW63d16RUyOQP5SA6rLAsKyA0TNNizvM4D9/A4Tk2Ec7nuPE0+vgqbpgqBnzLl6vv8N3+x4eEsS0mAvHAJhMoAw6kHUVUF4rkeWHAKXZtA15kDL6C6tkXmBffiZs/P+NE7dC4pBhwsJY6USVjBtBO/bCswrbfq2GS+Ce9DwyooHoRvaPPzVxI67IVfHnQA+2JqQMFQgur0anP8J5IVmYEopmdbh5YQO1wMu0BxdKlB/44GLg48/HT8J8uBesH6/ViDxC5DnWiHPWjAz0wleYCGKokaJIDdI/6JMZ1nWEshr7UEZsnnBH8l+ZfpY9WA9YaWW0ba3SGBWJetY5xzq6pt/AY6/mKmzshF5AAAAAElFTkSuQmCC", image: "http://dummyimage.com/247x100.png/dddddd/000000, http://dummyimage.com/185x100.png/dddddd/000000" },
         { title: "project 2", description: "Morbi a ipsum.", tags: ["impactful", "Puce", "Knoxville"], icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAANTSURBVDjLTZJtTFNXGMdvlpgl27Jvi5/2meyLWZbFGBdBBqJpi0njEtzEJUZa7LBGrARwTkvZFFpqodmKMC0CCrG1jSJqfCktl65YkUKtIFVKl6KzlVZa2vJShP/OOXHNbvK7ee5znv/v3HtyOQBc6hb3AUFJ8BIeET6k/f9Dehvfr7sJOf/1uXkrt4GgTo3se5mJ2pEYKY24+4qdxx9kHITYexwP+8T8wpgsujh5Mkbm3YTPmSDSy/2ccO9/tRK+hbnhA/OPTVuTDc4ofh+J4OL4awatz/EzGDd9lY776tLJccUbkhslbOBmL3G/LHhPxsJDB+Zdl7eu6odDuOr9Bz383zBYJ6A3T+CSbQY9Yy9hHLTjWd/OtcVZ87vw9S/8JJvDBdq4bVPtH/n/urAprbbPoNcdgtUexPRsAtFEEnOJFPyhBLrvTcM4FMTVG03w9mxZnmz/1EOyOewgjl+8qam2+NDuDMJEdqPX23gcz1+9xhKpKcl14Hz/NAyOFzhl4vFTh+s3dgb0tq9t1FF1zYfzd/yYJDunV9eRTKfxh7EDESJaWF6G5e4A+OdxnDU9AZ2lmazgu2Y+VtnjQeMVLyKLGbxdXsMKWahV1uGy9QaqT9fhnssNXzyDYwY36CzNZAW7z96JSS+4oewYQyiZIZI1zMYX8GuTloX5sSeYWwUeRzOQNw+DztJMVrDr1DXHXp0ddd2juP80DMvt+9CQsNFoREOjGqOBIJ6GE6hv0LCe6kwjflA0BnJzcz9mgvyqTqVAeR1H2oZwqFqLlpYWhMNhBAIBDA4OQkeeDe1/YnLKz3pOp5PNiEQiNRN8Izd8TZjYLtVAUVUDj8+HE6frUVxcDIlEAr1ej9raWlYLRSKI9x9KUolCoYhn//XNkqZy4V5JRqmqZ4KjzTbkF+yAzWaDx+MBz/OwWCzI/7YQWw6ekVOBSqVaygpcLle+TqfDYbmcCQTfy8hwAYqKiiAWixm0LiwsRGlp6SMqKC8vn2fh/v7+zwjJgYEBuvhOrWla6r7Su2q1WtHa2orKykrU1NSwmvbMZjO0Wm2CfOIzJujq6vqEMNXZ2bkik8n2CASCYFlZWaqiomKJsFJSUvIjoYDUKTl5Q6lUui4UCkN5eXlf/gvG8MXqEEqGrAAAAABJRU5ErkJggg==", image: "http://dummyimage.com/151x100.png/5fa2dd/ffffff" },
