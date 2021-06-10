@@ -6,20 +6,26 @@ var siteModule = (function () {
         buildProjectTiles();
         configureCollapsibleButtons();
         configurePopupModal();
+        configureSearchBar();
         toggleMouseResponse(true);
     };
 
-    var showNav = function () {
-        $("#myNav").show();
-    }
-
-    var hideNav = function () {
-        $("#myNav").hide();
+    var toggleNav = function () {
+        if ($("#myNav").is(":visible")) {
+            $("#myNav").hide();
+            $("#navButton").removeClass("nav-open");
+            // start transformation back to hamburger
+        }
+        else {
+            $("#myNav").show();
+            $("#navButton").addClass("nav-open");
+            // start transformation to X
+        }        
     }
 
     // private
     var arrowImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-arrow-transparent.png";
-    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Whitedot.png";
+    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-dot.png";
 
     var fadeOutLogo = function () {
         $(window).load(function () {
@@ -30,15 +36,15 @@ var siteModule = (function () {
     var buildProjectTiles = function () {
         let grid = $("#projectGrid");
         dataModule.projects.forEach(function (project, i) {
-            var divbg = $(`<divbg><grid-item><img src="${arrowImageUrl}" /></grid-item></divbg>`);
-            divbg.appendTo(grid);
+            var gridItem = $(`<grid-item><img src="${arrowImageUrl}" /></grid-item>`);
+            gridItem.appendTo(grid);
 
             // set div bg background color
             project.color = getRandomBackgroundColor(i);
-            divbg.css("background-color", project.color);
+            gridItem.css("background-color", project.color);
 
             // configure grid item image attributes
-            var gridItemImage = divbg.find("grid-item img");
+            var gridItemImage = gridItem.find("img");
             gridItemImage.attr("alt", project.title);
             gridItemImage.attr("title", project.title);
             gridItemImage.data("projectIndex", i);
@@ -61,6 +67,14 @@ var siteModule = (function () {
                 return false;
             }
         );
+
+        $(document).on(
+            "dragstart",
+            "grid-item img",
+            function (e) {
+                e.preventDefault();
+            }
+        )
     };
 
     var getRandomValue = function (min, max) {
@@ -101,14 +115,14 @@ var siteModule = (function () {
             .css('-webkit-transform', 'rotate(' + degree + 'deg)')
             .css('-o-transform', 'rotate(' + degree + 'deg)')
             .css('-ms-transform', 'rotate(' + degree + 'deg)');
-    }
+    };
 
     var doTagsIntersect = function (projectIndex1, projectIndex2) {
         var tags1 = dataModule.projects[projectIndex1].tags;
         var tags2 = dataModule.projects[projectIndex2].tags;
         var intersection = tags1.filter(value => tags2.includes(value));
         return intersection.length > 0;
-    }
+    };
 
     var handleProjectSelection = function (clickEvent, index) {
         if (index >= 0
@@ -163,7 +177,7 @@ var siteModule = (function () {
         else {
             $(document).off("mousemove");
         }
-    }
+    };
 
     var configureCollapsibleButtons = function () {
         $(document).on(
@@ -172,15 +186,18 @@ var siteModule = (function () {
             function (e) {
                 $(this).parent().find(".content").toggle();
             });
-    }
+    };
 
     var configurePopupModal = function () {
         $("#popup-modal").dialog({
             autoOpen: false,
             width: 500, // may need be dynamic based on window size
-            resizable: false
+            resizable: false,
+            close: function (e) {
+                handleProjectSelection(e, -1);
+            }
         });
-    }
+    };
 
     var showProjectData = function (projectIndex, clickEvent) {
         //this is referencing css ?
@@ -202,20 +219,94 @@ var siteModule = (function () {
                 }
             )
             .dialog("open");
-    }
+    };
 
     var hideProjectData = function () {
         $("#popup-modal").dialog("close");
-    }
+    };
 
-    var luzPlayground = function () {
-        // luz puts her code here
-    }
+    var configureSearchBar = function () {
+        $("#textSearch").on(
+            "keyup",
+            function (e) {
+                handleTextSearch($(this).val().toLowerCase());
+            }
+        );
+
+        $("#textSearch").on(
+            "change",
+            function (e) {
+                handleTextSearch($(this).val().toLowerCase());
+            }
+        );
+
+        $("#textSearch").on(
+            "paste",
+            function (e) {
+                handleTextSearch($(this).val().toLowerCase());
+            }
+        );
+
+        $("#textSearch").on(
+            "focus",
+            function (e) {
+                // minimal text in the search so clear any selected projects
+                var offset = $(this).offset();
+                e.pageX = offset.left;
+                e.pageY = offset.top;
+                handleProjectSelection(e, -1);
+            }
+        );
+    };
+
+    var handleTextSearch = function (searchValue) {
+        if (!searchValue || searchValue.length <= 2) {
+            $("grid-item img")
+                .removeClass("match nomatch");
+        }
+        else {
+            dataModule.projects.forEach(function (project, i) {
+                if (isProjectMatch(project, searchValue)) {
+                    project.ref.addClass("match").removeClass("nomatch");
+                }
+                else {
+                    project.ref.addClass("nomatch").removeClass("match");
+                }
+            });
+        }
+    };
+
+    var isProjectMatch = function (project, searchValue) {
+        var isMatch = false;
+        if (project.title.toLowerCase().indexOf(searchValue) > -1) return true;
+        if (project.people) {
+            project.people.forEach(function (p) {
+                if (p.firstName.toLowerCase().indexOf(searchValue) > -1) {
+                    isMatch = true;
+                }
+                else if (p.lastName.toLowerCase().indexOf(searchValue) > -1) {
+                    isMatch = true;
+                }
+                else if (`{p.firstName} {p.lastName}`.toLowerCase().indexOf(searchValue) > -1) {
+                    isMatch = true;
+                };
+            });
+
+            if (isMatch) return true;
+        }
+
+        project.tags.forEach(function (t) {
+            if (t.toLowerCase().indexOf(searchValue) > -1) {
+                isMatch = true;
+            }
+        });
+
+        return isMatch;
+    };
 
     return {
         init: init,
-        showNav: showNav,
-        hideNav: hideNav
+        toggleNav: toggleNav
     };
 })();
 
