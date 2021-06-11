@@ -13,14 +13,11 @@ var siteModule = (function () {
     var toggleNav = function () {
         if ($("#myNav").is(":visible")) {
             $("#myNav").hide();
-            $("#navButton").removeClass("nav-open");
-            // start transformation back to hamburger
-            
+            $("#navButton").removeClass("nav-open");            
         }
         else {
             $("#myNav").show();
             $("#navButton").addClass("nav-open");
-            // start transformation to X
         }        
     }
 
