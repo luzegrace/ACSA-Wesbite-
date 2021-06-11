@@ -2,6 +2,7 @@ var siteModule = (function () {
 
     // public
     var init = function () {
+        dataModule.init();
         fadeOutLogo();
         buildProjectTiles();
         configureCollapsibleButtons();
@@ -206,8 +207,7 @@ var siteModule = (function () {
         modal.find("p.description").html(selectedProject.description);
         modal.find("p.image img").attr("src", selectedProject.image);
         modal.find("p.tags").html(selectedProject.tags.join(", "));
-        modal.find("p.session").html(selectedProject.session);
-        
+        modal.find("p.session").html(selectedProject.session);        
 
         $("#popup-modal")
             .dialog(
@@ -280,22 +280,7 @@ var siteModule = (function () {
     var isProjectMatch = function (project, searchValue) {
         var isMatch = false;
         if (project.title.toLowerCase().indexOf(searchValue) > -1) return true;
-        if (project.people) {
-            project.people.forEach(function (p) {
-                if (p.firstName.toLowerCase().indexOf(searchValue) > -1) {
-                    isMatch = true;
-                }
-                else if (p.lastName.toLowerCase().indexOf(searchValue) > -1) {
-                    isMatch = true;
-                }
-                else if (`{p.firstName} {p.lastName}`.toLowerCase().indexOf(searchValue) > -1) {
-                    isMatch = true;
-                };
-            });
-
-            if (isMatch) return true;
-        }
-
+        if (project.people && project.people.toLowerCase().indexOf(searchValue) > -1) return true;
         project.tags.forEach(function (t) {
             if (t.toLowerCase().indexOf(searchValue) > -1) {
                 isMatch = true;
