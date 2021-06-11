@@ -1,10 +1,15 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css" />
     <link rel="stylesheet" href="css/site.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
 
     <script src="./js/data.js"></script>
     <script src="./js/site.js"></script>
@@ -72,29 +77,13 @@
             </div>
         </div>
 
-        </div>
-
         <div class="topnav">
             <div id="navButton" class="hamburger-shell" onclick="siteModule.toggleNav()">
             </div>
-            <script>
-                const menuBtn = document.querySelector('.topnav');
-                let menuOpen = false;
-             menuBtn.addEventListener('click', () => {
-                if(!menuOpen) {
-             menuBtn.classList.add('open');
-             menuOpen = true;
-             } else {
-             menuBtn.classList.remove('open');
-             menuOpen = false;
-                 }
-            });
-
-            </script>
-
             <div class="icon"><img src="https://static1.squarespace.com/static/5e6ff2bc452685367c11cb1c/t/60bc081f5d57653c250fb598/1622935583183/ACSA_WhiteWeb5Artboard+1.png"></div>
             <div class="buttoncontainer">
-                <a class="button" href="https://www.acsa-arch.org/conference/2021-acsa-eaae-teachers-conference">PLENARIES</a>
+                <!--<a class="button" href="https://www.acsa-arch.org/conference/2021-acsa-eaae-teachers-conference">PLENARIES</a>-->
+                <a class="button" href="#">PLENARIES</a>
                 <a class="button" href="#">COMMITTEE</a>
                 <div class="dropdown">
                     <button type="button" class="dropbtn">SESSIONS</button>
@@ -153,10 +142,9 @@
             <h2 class="people"></h2>
         </div>
         <div role="main" class="ui-content">
-            <p class="description"></p>
-            <p class="image">
-                <img/>
-            </p>
+            <div class="description"></div>
+            <div class="images">
+            </div>
             <div class="ui-footer">
                 <p class="tags"></p>
                 <p class="session"></p>

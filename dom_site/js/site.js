@@ -2,6 +2,7 @@ var siteModule = (function () {
 
     // public
     var init = function () {
+        dataModule.init();
         fadeOutLogo();
         buildProjectTiles();
         configureCollapsibleButtons();
@@ -13,14 +14,11 @@ var siteModule = (function () {
     var toggleNav = function () {
         if ($("#myNav").is(":visible")) {
             $("#myNav").hide();
-            $("#navButton").removeClass("nav-open");
-            // start transformation back to hamburger
-            
+            $("#navButton").removeClass("nav-open");            
         }
         else {
             $("#myNav").show();
             $("#navButton").addClass("nav-open");
-            // start transformation to X
         }        
     }
 
@@ -192,7 +190,7 @@ var siteModule = (function () {
     var configurePopupModal = function () {
         $("#popup-modal").dialog({
             autoOpen: false,
-            width: 500, // may need be dynamic based on window size
+            width: 0.30 * $(window).width(), // may need be dynamic based on window size
             resizable: false,
             close: function (e) {
                 handleProjectSelection(e, -1);
@@ -201,16 +199,55 @@ var siteModule = (function () {
     };
 
     var showProjectData = function (projectIndex, clickEvent) {
-        
-        var selectedProject = dataModule.projects[projectIndex];
         var modal = $("#popup-modal");
+
+        // show wait symbol
+
+        var selectedProject = dataModule.projects[projectIndex];
         modal.find("h1.title").html(selectedProject.title);
         modal.find("h2.people").html(selectedProject.people);
-        modal.find("p.description").html(selectedProject.description);
-        modal.find("p.image img").attr("src", selectedProject.image);
+        modal.find("div.description").html(selectedProject.description);
         modal.find("p.tags").html(selectedProject.tags.join(", "));
         modal.find("p.session").html(selectedProject.session);
-        
+
+        var imageBox = modal.find("div.images");
+        imageBox.empty();
+        if (selectedProject.image) {
+            var slickBox = $("<div class=\"slickbox\"></div>");
+            var imageDiv = $(`<div><img data-lazy="${selectedProject.image}" /></div>`);
+            var imageDiv = $(`<div><a href="${selectedProject.image}" data-lightbox="projectImages"><img data-lazy="${selectedProject.image}" /></a></div>`);
+            imageDiv.appendTo(slickBox);
+            slickBox.appendTo(imageBox);
+            slickBox.slick({
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+                draggable: false
+            });
+            imageBox.show();
+        }
+        else if (selectedProject.images) {
+            var slickBox = $("<div class=\"slickbox\"></div>");
+            selectedProject.images.forEach(function (image) {
+                var imageDiv = $(`<div><a href="${image}" data-lightbox="projectImages"><img data-lazy="${image}" /></a></div>`);
+                imageDiv.appendTo(slickBox);
+            });
+            slickBox.appendTo(imageBox);
+            slickBox.slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                speed: 300,
+                centerMode: true,
+                variableWidth: true,
+                draggable: false
+            });
+            imageBox.show();
+        }
+        else {
+            imageBox.hide();
+        }
 
         $("#popup-modal")
             .dialog(
@@ -261,6 +298,16 @@ var siteModule = (function () {
                 handleProjectSelection(e, -1);
             }
         );
+
+        $(".buttoncontainer").on(
+            "click",
+            "a",
+            function (e) {
+                var searchText = $(this).text();
+                $("#textSearch").val(searchText);
+                handleTextSearch(searchText.toLowerCase());
+                e.preventDefault();
+            });
     };
 
     var handleTextSearch = function (searchValue) {
@@ -283,22 +330,8 @@ var siteModule = (function () {
     var isProjectMatch = function (project, searchValue) {
         var isMatch = false;
         if (project.title.toLowerCase().indexOf(searchValue) > -1) return true;
-        if (project.people) {
-            project.people.forEach(function (p) {
-                if (p.firstName.toLowerCase().indexOf(searchValue) > -1) {
-                    isMatch = true;
-                }
-                else if (p.lastName.toLowerCase().indexOf(searchValue) > -1) {
-                    isMatch = true;
-                }
-                else if (`{p.firstName} {p.lastName}`.toLowerCase().indexOf(searchValue) > -1) {
-                    isMatch = true;
-                };
-            });
-
-            if (isMatch) return true;
-        }
-
+        if (project.people && project.people.toLowerCase().indexOf(searchValue) > -1) return true;
+        if (project.session && project.session.toLowerCase().indexOf(searchValue) > -1) return true;
         project.tags.forEach(function (t) {
             if (t.toLowerCase().indexOf(searchValue) > -1) {
                 isMatch = true;
