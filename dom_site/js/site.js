@@ -258,6 +258,16 @@ var siteModule = (function () {
                 handleProjectSelection(e, -1);
             }
         );
+
+        $(".buttoncontainer").on(
+            "click",
+            "a",
+            function (e) {
+                var searchText = $(this).text();
+                $("#textSearch").val(searchText);
+                handleTextSearch(searchText.toLowerCase());
+                e.preventDefault();
+            });
     };
 
     var handleTextSearch = function (searchValue) {
@@ -281,6 +291,7 @@ var siteModule = (function () {
         var isMatch = false;
         if (project.title.toLowerCase().indexOf(searchValue) > -1) return true;
         if (project.people && project.people.toLowerCase().indexOf(searchValue) > -1) return true;
+        if (project.session && project.session.toLowerCase().indexOf(searchValue) > -1) return true;
         project.tags.forEach(function (t) {
             if (t.toLowerCase().indexOf(searchValue) > -1) {
                 isMatch = true;
