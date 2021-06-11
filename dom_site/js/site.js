@@ -15,6 +15,7 @@ var siteModule = (function () {
             $("#myNav").hide();
             $("#navButton").removeClass("nav-open");
             // start transformation back to hamburger
+            
         }
         else {
             $("#myNav").show();
@@ -25,11 +26,11 @@ var siteModule = (function () {
 
     // private
     var arrowImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-arrow-transparent.png";
-    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-dot.png";
+    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white_circle.png";
 
     var fadeOutLogo = function () {
         $(window).load(function () {
-            $(".logoload").delay(500).fadeOut(1000);
+            $(".logoload").delay(700).fadeOut(1500);
         });
     };
 
@@ -200,13 +201,16 @@ var siteModule = (function () {
     };
 
     var showProjectData = function (projectIndex, clickEvent) {
-        //this is referencing css ?
+        
         var selectedProject = dataModule.projects[projectIndex];
         var modal = $("#popup-modal");
         modal.find("h1.title").html(selectedProject.title);
+        modal.find("h2.people").html(selectedProject.people);
         modal.find("p.description").html(selectedProject.description);
         modal.find("p.image img").attr("src", selectedProject.image);
         modal.find("p.tags").html(selectedProject.tags.join(", "));
+        modal.find("p.session").html(selectedProject.session);
+        
 
         $("#popup-modal")
             .dialog(
