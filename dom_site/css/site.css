@@ -445,13 +445,12 @@ grid-item {
     border: 1px solid #aaaaaa00;
     background: #ffffffbb;
     color: #070707;
-    max-width: 50%;
-    height: 50%;
 }
 
-    .ui-widget-content .image img {
-        max-width: 50%;
-        height: 50%;
+    .ui-widget-content .images img {
+        width: 500px;
+        height: 300px;
+        object-fit: contain;
     }
 
 .ui-widget {
@@ -498,10 +497,10 @@ grid-item {
     white-space: nowrap;
 }
 
-img[Attributes Style] {
-    width: 50;
-    height: 50;
+div.images {
+    
 }
+
 /*
  ///////////////////////////////////////////////////////
  filters for arrows

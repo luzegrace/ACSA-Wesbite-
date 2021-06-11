@@ -190,7 +190,7 @@ var siteModule = (function () {
     var configurePopupModal = function () {
         $("#popup-modal").dialog({
             autoOpen: false,
-            width: 500, // may need be dynamic based on window size
+            width: 0.30 * $(window).width(), // may need be dynamic based on window size
             resizable: false,
             close: function (e) {
                 handleProjectSelection(e, -1);
@@ -199,15 +199,55 @@ var siteModule = (function () {
     };
 
     var showProjectData = function (projectIndex, clickEvent) {
-        
-        var selectedProject = dataModule.projects[projectIndex];
         var modal = $("#popup-modal");
+
+        // show wait symbol
+
+        var selectedProject = dataModule.projects[projectIndex];
         modal.find("h1.title").html(selectedProject.title);
         modal.find("h2.people").html(selectedProject.people);
-        modal.find("p.description").html(selectedProject.description);
-        modal.find("p.image img").attr("src", selectedProject.image);
+        modal.find("div.description").html(selectedProject.description);
         modal.find("p.tags").html(selectedProject.tags.join(", "));
-        modal.find("p.session").html(selectedProject.session);        
+        modal.find("p.session").html(selectedProject.session);
+
+        var imageBox = modal.find("div.images");
+        imageBox.empty();
+        if (selectedProject.image) {
+            var slickBox = $("<div class=\"slickbox\"></div>");
+            var imageDiv = $(`<div><img data-lazy="${selectedProject.image}" /></div>`);
+            var imageDiv = $(`<div><a href="${selectedProject.image}" data-lightbox="projectImages"><img data-lazy="${selectedProject.image}" /></a></div>`);
+            imageDiv.appendTo(slickBox);
+            slickBox.appendTo(imageBox);
+            slickBox.slick({
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+                draggable: false
+            });
+            imageBox.show();
+        }
+        else if (selectedProject.images) {
+            var slickBox = $("<div class=\"slickbox\"></div>");
+            selectedProject.images.forEach(function (image) {
+                var imageDiv = $(`<div><a href="${image}" data-lightbox="projectImages"><img data-lazy="${image}" /></a></div>`);
+                imageDiv.appendTo(slickBox);
+            });
+            slickBox.appendTo(imageBox);
+            slickBox.slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                speed: 300,
+                centerMode: true,
+                variableWidth: true,
+                draggable: false
+            });
+            imageBox.show();
+        }
+        else {
+            imageBox.hide();
+        }
 
         $("#popup-modal")
             .dialog(
