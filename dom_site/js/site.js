@@ -315,15 +315,28 @@ var siteModule = (function () {
             }
         );
 
+        //$("#textSearch").on(
+        //    "click",
+        //    ".cleartextsearch",
+        //    function (e) {
+        //        $("#textSearch").val();
+        //        handleTextSearch("");
+        //    }
+        //);
+
         $(".buttoncontainer").on(
             "click",
             "a",
             function (e) {
                 var searchText = $(this).text();
-                $("#textSearch").val(searchText);
+                $("#textSearch").val(searchText.toUpperCase());
                 handleTextSearch(searchText.toLowerCase());
                 e.preventDefault();
             });
+
+        $("#textSearch").autocomplete({
+            source: dataModule.globals.globalTags
+        });
     };
 
     var tokenizeSearchValue = function (searchValue) {

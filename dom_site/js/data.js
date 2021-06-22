@@ -1411,16 +1411,26 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
         
     ];
 
+    var globals = {
+    };
+
     var processProjects = function () {
+        var globalTags = [];
         projects.forEach(function (project) {
             project.tags = project.projectTags.toUpperCase().split(",")
                 .map(tag => $.trim(tag))
-                .filter(tag => tag && tag.length > 0);
+                .filter(tag => tag && tag.length > 0)
+                .map(tag => {
+                    globalTags.push(tag);
+                    return tag;
+                });
         });
+        globals.globalTags = globalTags.sort().filter((value, index, array) => index === array.indexOf(value));
     }
 
     return {
         init: init,
-        projects: projects
+        projects: projects,
+        globals: globals
     };
 })();
