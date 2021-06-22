@@ -217,7 +217,7 @@ var siteModule = (function () {
         if (selectedProject.image) {
             var slickBox = $("<div class=\"slickbox\"></div>");
             var imageDiv = $(`<div><img data-lazy="${selectedProject.image}" /></div>`);
-            var imageDiv = $(`<div><a href="${selectedProject.image}" data-lightbox="projectImages"><img data-lazy="${selectedProject.image}" /></a></div>`);
+            var imageDiv = $(`<div><a href="${selectedProject.image}" data-lightbox="projectImages"><img src="${selectedProject.image}" /></a></div>`);
             imageDiv.appendTo(slickBox);
             slickBox.appendTo(imageBox);
             slickBox.slick({
@@ -231,8 +231,8 @@ var siteModule = (function () {
         }
         else if (selectedProject.images) {
             var slickBox = $("<div class=\"slickbox\"></div>");
-            selectedProject.images.forEach(function (images) {
-                var imageDiv = $(`<div><a href="${images}" data-lightbox="projectImages"><img data-lazy="${images}" /></a></div>`);
+            selectedProject.images.forEach(function (imageUrl, index) {
+                var imageDiv = $(`<div><a href="${imageUrl}" data-lightbox="projectImages"><img src="${imageUrl}" /></a></div>`);
                 imageDiv.appendTo(slickBox);
             });
             slickBox.appendTo(imageBox);
