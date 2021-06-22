@@ -353,6 +353,7 @@ var siteModule = (function () {
         for (i = 0; i < searchTokens.length; i++) {
             var searchToken = searchTokens[i];
             if (project.title.toLowerCase().indexOf(searchToken) > -1) return true;
+            if (project.subtitle && project.subtitle.toLowerCase().indexOf(searchToken) > -1) return true;
             if (project.people && project.people.toLowerCase().indexOf(searchToken) > -1) return true;
             if (project.session && project.session.toLowerCase().indexOf(searchToken) > -1) return true;
 
