@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+    <link rel='icon' href='favicon.ico' type='image/x-icon' >
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
@@ -59,28 +60,25 @@
                             Email the conference steering committee:
                         </p>
                         <p>
-                            <a href = "mailto:jscelsa@pratt.edu ">Jonathan A. Scelsa, Pratt Institute</a>
-                        </p>
-                        <p>
-                            <a href = "mailto:Jorgen.Johan.Tandberg@aho.no">Jørgen Johan Tandberg, Pratt Institute</a>
-                        </p>
-                        <p>
                             <a href = "mailto:conferences@acsa-arch.org">ACSA Conferences</a>
                         </p>
                     </div>
                 </div>
+            </div>
                 <div class="Nav-footer">
                 <p>
                     <a href="http://acsa-arch.org/">ACSA</a> <a href="https://www.eaae.be/">EAAE</a> <a href="https://architecture.pratt.edu/">PRATT</a> <a href="https://aho.no/en">AHO</a>
                 </p>
             </div>
-            </div>
+            
         </div>
 
         <div class="topnav">
+            <a class=ham-back></a>
             <div id="navButton" class="hamburger-shell" onclick="siteModule.toggleNav()">
+                
             </div>
-            <div class="icon"><img src="https://static1.squarespace.com/static/5e6ff2bc452685367c11cb1c/t/60bc081f5d57653c250fb598/1622935583183/ACSA_WhiteWeb5Artboard+1.png"></div>
+            <div class="icon" ><a href="https://curriculumforclimateagency.org/" > <img src="https://static1.squarespace.com/static/5e6ff2bc452685367c11cb1c/t/60bc081f5d57653c250fb598/1622935583183/ACSA_WhiteWeb5Artboard+1.png" ></a></div>
             <div class="buttoncontainer">
                 <!--<a class="button" href="https://www.acsa-arch.org/conference/2021-acsa-eaae-teachers-conference">PLENARIES</a>-->
                 <a class="button" href="#">PLENARIES</a>
@@ -90,10 +88,10 @@
                     <div class="dropdown-content">
                         <a href="#">Monstrous Infrastructure</a>
                         <a href="#">Unlearning Architecture</a>
-                        <a href="#">Abstract by Design</a>
+                        <a href="#">Abstract by Nature</a>
                         <a href="#">Closing the Loop</a>
                         <a href="#">Architecture of Migration</a>
-                        <a href="#">Inhabiting the Hyrdosphere</a>
+                        <a href="#">Inhabiting the Hydrosphere</a>
                         <a href="#">The Climate Classroom</a>
                         <a href="#">Charter for Health + Justice</a>
                         <a href="#">Design Agency</a>
@@ -109,15 +107,6 @@
     </header>
 
     <div class="logoload">
-        <p style="color:rgba(255, 255, 255, 0);">
-             .
-        </p>
-        <p style="color:rgba(255, 255, 255, 0);">
-            .
-       </p>
-        <p>
-            JUNE 23 - 24, 2022
-        </p>
     </div>
 
     <div id="projectGrid" class="grid">
@@ -125,28 +114,30 @@
     </div>
 
     <div class="footcontainer">
-        <div class="footer1"><a href="">&#64;ACSA</a></div>
-        <div class="footer1"><a href="">&#64;EAAE</a></div>
-        <div class="footer1"><a href="">&#64;PRATTSoA</a></div>
-        <div class="footer1"><a href="">&#64;AHO</a></div>
+        <div class="footer1"><a href="https://www.acsa-arch.org/">&#64;ACSA</a></div>
+        <div class="footer1"><a href="https://www.eaae.be/">&#64;EAAE</a></div>
+        <div class="footer1"><a href="https://architecture.pratt.edu/">&#64;PRATTSoA</a></div>
+        <div class="footer1"><a href="https://aho.no/en">&#64;AHO</a></div>
     </div>
     <div class="footright">Copyright &copy;2021 ACSA + PRATTSoA</div>
 
     <!-- Modal setup -->
-    <div data-role="popup" id="popup-modal" data-arrow="true" style="display:none">
+    <div data-role="popup" id="popup-modal" data-arrow="true" style="display:none" >
         <div class="ui-header">
             <!-- <a class="ui-btn-left ui-btn-corner-all ui-btn">-->
-            <img />
+            </img>
             <!--</a>-->
             <h1 class="title"></h1>
+            <h2 class="subtitle"></h2>
             <h2 class="people"></h2>
         </div>
-        <div role="main" class="ui-content">
+        <div role="main" class="ui-content ui-draggable-handle">
+            <div class="images" ></div>
             <div class="description"></div>
-            <div class="images">
             </div>
-            <div class="ui-footer">
+            <div class="ui-footer">TAGS:
                 <p class="tags"></p>
+                SESSION:
                 <p class="session"></p>
             </div>
         </div>
