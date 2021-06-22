@@ -24,7 +24,7 @@ var siteModule = (function () {
 
     // private
     var arrowImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white-arrow-transparent.png";
-    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white_circle.png";
+    var dotImageUrl = "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/white_circle2.png";
 
     var fadeOutLogo = function () {
         $(window).load(function () {
@@ -190,8 +190,9 @@ var siteModule = (function () {
     var configurePopupModal = function () {
         $("#popup-modal").dialog({
             autoOpen: false,
-            width: 0.30 * $(window).width(), // may need be dynamic based on window size
-            resizable: false,
+            width: 450 * $(window).width(),
+            //width: 0.70 * $(window).width(), // may need be dynamic based on window size
+            resizable: true,
             close: function (e) {
                 handleProjectSelection(e, -1);
             }
@@ -205,6 +206,7 @@ var siteModule = (function () {
 
         var selectedProject = dataModule.projects[projectIndex];
         modal.find("h1.title").html(selectedProject.title);
+        modal.find("h2.subtitle").html(selectedProject.subtitle);
         modal.find("h2.people").html(selectedProject.people);
         modal.find("div.description").html(selectedProject.description);
         modal.find("p.tags").html(selectedProject.tags.join(", "));
@@ -220,6 +222,7 @@ var siteModule = (function () {
             slickBox.appendTo(imageBox);
             slickBox.slick({
                 slidesToShow: 1,
+                slidesToScroll: 1,
                 centerMode: true,
                 variableWidth: true,
                 draggable: false
@@ -228,12 +231,13 @@ var siteModule = (function () {
         }
         else if (selectedProject.images) {
             var slickBox = $("<div class=\"slickbox\"></div>");
-            selectedProject.images.forEach(function (image) {
-                var imageDiv = $(`<div><a href="${image}" data-lightbox="projectImages"><img data-lazy="${image}" /></a></div>`);
+            selectedProject.images.forEach(function (images) {
+                var imageDiv = $(`<div><a href="${images}" data-lightbox="projectImages"><img data-lazy="${images}" /></a></div>`);
                 imageDiv.appendTo(slickBox);
             });
             slickBox.appendTo(imageBox);
             slickBox.slick({
+                //autoplaySpeed: 5,
                 dots: true,
                 infinite: true,
                 slidesToShow: 1,
@@ -241,7 +245,7 @@ var siteModule = (function () {
                 speed: 300,
                 centerMode: true,
                 variableWidth: true,
-                draggable: false
+                draggable: true,
             });
             imageBox.show();
         }
@@ -253,10 +257,11 @@ var siteModule = (function () {
             .dialog(
                 "option",
                 "position",
+                "fixed",
                 {
-                    my: "left+10 bottom-10",
+                    my: "right+100 bottom-10",
                     of: clickEvent,
-                    collision: "fit"
+                    collision: "fit",
                 }
             )
             .dialog("open");
