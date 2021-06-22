@@ -116,11 +116,16 @@ var siteModule = (function () {
             .css('-ms-transform', 'rotate(' + degree + 'deg)');
     };
 
-    var doTagsIntersect = function (projectIndex1, projectIndex2) {
+    var doProjectsIntersect = function (projectIndex1, projectIndex2) {
         var tags1 = dataModule.projects[projectIndex1].tags;
         var tags2 = dataModule.projects[projectIndex2].tags;
         var intersection = tags1.filter(value => tags2.includes(value));
-        return intersection.length > 0;
+        if (intersection.length > 0) {
+            return true;
+        }
+        else {
+            return dataModule.projects[projectIndex1].session == dataModule.projects[projectIndex2].session;
+        }
     };
 
     var handleProjectSelection = function (clickEvent, index) {
@@ -134,7 +139,7 @@ var siteModule = (function () {
                         .removeClass("related disabled")
                         .attr("src", dotImageUrl);
                 }
-                else if (doTagsIntersect(i, index)) {
+                else if (doProjectsIntersect(i, index)) {
                     project.ref
                         .addClass("related")
                         .removeClass("active disabled")
@@ -154,6 +159,12 @@ var siteModule = (function () {
             var centerY = (targetOffset.top) + (gridItem.height() / 2);
             $("grid-item img").trigger("site.rotateImg", [centerX, centerY]);
             showProjectData(index, clickEvent);
+
+            if (dataModule.projects[index].ref.hasClass("nomatch")) {
+                var relevantSearchText = dataModule.projects[index].session + ", " + dataModule.projects[index].tags.join(", ");
+                $("#textSearch").val(relevantSearchText.toUpperCase());
+                handleTextSearch(relevantSearchText.toLowerCase());
+            }
         }
         else {
             hideProjectData();
@@ -315,14 +326,20 @@ var siteModule = (function () {
             });
     };
 
+    var tokenizeSearchValue = function (searchValue) {
+        return searchValue.split(',')
+            .map(token => $.trim(token));
+    };
+
     var handleTextSearch = function (searchValue) {
         if (!searchValue || searchValue.length <= 2) {
             $("grid-item img")
                 .removeClass("match nomatch");
         }
         else {
+            var searchTokens = tokenizeSearchValue(searchValue);
             dataModule.projects.forEach(function (project, i) {
-                if (isProjectMatch(project, searchValue)) {
+                if (isProjectMatch(project, searchTokens)) {
                     project.ref.addClass("match").removeClass("nomatch");
                 }
                 else {
@@ -332,18 +349,27 @@ var siteModule = (function () {
         }
     };
 
-    var isProjectMatch = function (project, searchValue) {
-        var isMatch = false;
-        if (project.title.toLowerCase().indexOf(searchValue) > -1) return true;
-        if (project.people && project.people.toLowerCase().indexOf(searchValue) > -1) return true;
-        if (project.session && project.session.toLowerCase().indexOf(searchValue) > -1) return true;
-        project.tags.forEach(function (t) {
-            if (t.toLowerCase().indexOf(searchValue) > -1) {
-                isMatch = true;
-            }
-        });
+    var isProjectMatch = function (project, searchTokens) {
+        for (i = 0; i < searchTokens.length; i++) {
+            var searchToken = searchTokens[i];
+            if (project.title.toLowerCase().indexOf(searchToken) > -1) return true;
+            if (project.people && project.people.toLowerCase().indexOf(searchToken) > -1) return true;
+            if (project.session && project.session.toLowerCase().indexOf(searchToken) > -1) return true;
 
-        return isMatch;
+            var isMatch = false;
+            project.tags.forEach(function (t) {
+                if (t.toLowerCase().indexOf(searchToken) > -1) {
+                    isMatch = true;
+                    return;
+                }
+            });
+
+            if (isMatch) {
+                return true;
+            }
+        }
+
+        return false;
     };
 
     return {
