@@ -36,7 +36,7 @@
             subtitle: "Pratt Institute",
             people: "Scientific Track Committee",
             projectTags: "re-use, ecology,Historic Preservation",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/vicki.jpg",
+            image: "https://curriculumforclimateagency.org/images/vicki.jpg",
             description: "",
             session: "COMMITTEE"
         },        
@@ -44,8 +44,8 @@
             title: "Meta Brunzema, Pratt Institute",
             subtitle:"",
             people: "Scientific Track Committee",
-            projectTags: "re-use, ecology,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Meta.jpg",
+            projectTags: "re-use, ecology",
+            image: "https://curriculumforclimateagency.org/images/Meta.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -54,7 +54,7 @@
             subtitle:"",
             people: "Scientific Track Committee",
             projectTags: "Re-use, decommissionedsites, adaptive re-use,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Audrey.jpg",
+            image: "https://curriculumforclimateagency.org/images/Audrey.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -63,7 +63,7 @@
             subtitle:"",
             people: "Scientific Track Committee",
             projectTags: "Morphology, Performance",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Reese.jpg",
+            image: "https://curriculumforclimateagency.org/images/Reese.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -72,7 +72,7 @@
             subtitle:"",
             people: "Steering Committee",
             projectTags: "Morphology, Performance",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Johan.jpg",
+            image: "https://curriculumforclimateagency.org/images/Johan.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -81,7 +81,7 @@
             subtitle:"",
             people: "Steering Committee",
             projectTags: "equity, decolonizing, justice",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Harriet.jpg",
+            image: "https://curriculumforclimateagency.org/images/Harriet.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -90,7 +90,7 @@
             subtitle:"",
             people: "Steering Committee",
             projectTags: "practice, assembly, profession",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Ole.jpg",
+            image: "https://curriculumforclimateagency.org/images/Ole.png",
             description: "",
             session: "COMMITTEE"
         },
@@ -99,7 +99,7 @@
             subtitle:"",
             people: "Steering Committee, Moderator",
             projectTags: "infrastructure, Food, energy, production, morphology ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Jonathan.jpg",
+            image: "https://curriculumforclimateagency.org/images/Jonathan.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -108,7 +108,7 @@
             subtitle:"",
             people: "Steering Committee, Moderator",
             projectTags: "assembly, urbanism, materials",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Jorgen.jfif",
+            image: "https://curriculumforclimateagency.org/images/Jorgen.jfif",
             description: "",
             session: "COMMITTEE"
         },
@@ -116,7 +116,7 @@
             title: "Luis Callejas, Oslo School of Architecture",
             people: "Scientific Track Committee, Moderator",
             projectTags: "landscape, urbanism, abstraction,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Luis.jfif",
+            image: "https://curriculumforclimateagency.org/images/Luis.jfif",
             description: "",
             session: "COMMITTEE"
         },
@@ -124,7 +124,7 @@
             title: "Tulay Atak, Pratt Institute",
             people: "Scientific Track Committee, Moderator",
             projectTags: "landscape, urbanism, History, Theory,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/tatak.jpg",
+            image: "https://curriculumforclimateagency.org/images/tatak.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -132,7 +132,7 @@
             title: "Ariane Lourie Harrison, Pratt Institute",
             people: "Scientific Track Committee, Moderator",
             projectTags: "post-human, ecology, classroom,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/ariane.jpg",
+            image: "https://curriculumforclimateagency.org/images/ariane.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -140,7 +140,7 @@
             title: "Janike Kampevold Larsen, Oslo School of Architecture",
             people: "Scientific Track Committee, Moderator",
             projectTags: "landscape, urbanism, materials, circularity,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/janike.jpg",
+            image: "https://curriculumforclimateagency.org/images/janike.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -148,7 +148,7 @@
             title: "Marianne Skjulhaag, Oslo School of Architecture",
             people: "Scientific Track Committee, Moderator",
             projectTags: "migration, urbanism, materials, circularity,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/marianne.jpg",
+            image: "https://curriculumforclimateagency.org/images/marianne.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -156,7 +156,7 @@
             title: "Håkan Edelhold, Oslo School of Architecture",
             people: "Scientific Track Committee, Moderator",
             projectTags: "agency, design, materials, circularity,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Hakan.jfif",
+            image: "https://curriculumforclimateagency.org/images/Hakan.jfif",
             description: "",
             session: "COMMITTEE"
         },
@@ -164,7 +164,7 @@
             title: "Sabine Muller, Oslo School of Architecture",
             people: "Scientific Track Committee, Moderator",
             projectTags: "agency, water, circularity,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/sabine.jfif",
+            image: "https://curriculumforclimateagency.org/images/sabine.jfif",
             description: "",
             session: "COMMITTEE"
         },
@@ -172,7 +172,7 @@
             title: "Tine Hegli, Oslo School of Architecture",
             people: "Scientific Track Committee, Moderator",
             projectTags: "agency, circularity,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/tine.jpg",
+            image: "https://curriculumforclimateagency.org/images/tine.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -180,7 +180,7 @@
             title: "Elisa Cattaneo, Milan Polytechnic",
             people: "Scientific Review Committee, Moderator",
             projectTags: "agency, circularity",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/elisa.jpg",
+            image: "https://curriculumforclimateagency.org/images/elisa.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -188,7 +188,7 @@
             title: "Rania Ghosn, MIT",
             people: "Scientific Review Committee, Moderator",
             projectTags: "imaginary, geography, agency, circularity",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/rania.jpg",
+            image: "https://curriculumforclimateagency.org/images/rania.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -196,7 +196,7 @@
             title: "Lisa Marie Enzenhoffer, ETH",
             people: "Scientific Review Committee",
             projectTags: "imaginary, geography, agency, circularity",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Lisa.bmp",
+            image: "https://curriculumforclimateagency.org/images/Lisa.bmp",
             description: "",
             session: "COMMITTEE"
         },
@@ -204,7 +204,7 @@
             title: "Mae-Ling Lokko, RPI",
             people: "Scientific Review Committee",
             projectTags: "agency, design, materials, circularity,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/lokko.jpg",
+            image: "https://curriculumforclimateagency.org/images/lokko.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -212,7 +212,7 @@
             title: "Lydia Kallipoliti, Cooper",
             people: "Scientific Review Committee",
             projectTags: "agency, design, energy, waste-streams,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/lydia.jfif",
+            image: "https://curriculumforclimateagency.org/images/lydia.jfif",
             description: "",
             session: "COMMITTEE"
         },
@@ -220,7 +220,7 @@
             title: "Christina Geros, UCL",
             people: "Scientific Review Committee",
             projectTags: "agency, design, ecology, waste-streams,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/geros.jpg",
+            image: "https://curriculumforclimateagency.org/images/geros.jpg",
             description: "",
             session: "COMMITTEE"
         },
@@ -230,21 +230,21 @@
             people: "Philippe Rahm, Philippe Rahm architectes ; Kotchakorn Voraakham, Landprocess and Porous City Network ; Stella Mutegi & Kabage Karanja, Cave_Bureau",
             projectTags: "EARLY-DESIGN, ECOLOGY, WATER",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Plenary1_pic1.png",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Plenary1_pic2.png",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Plenary1_pic3.png",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Plenary1_pic4.png",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Plenary1_pic5.png"
+                "https://curriculumforclimateagency.org/images/Plenary1_pic1.jpg",
+                "https://curriculumforclimateagency.org/images/Plenary1_pic2.jpg",
+                "https://curriculumforclimateagency.org/images/Plenary1_pic3.jpg",
+                "https://curriculumforclimateagency.org/images/Plenary1_pic4.jpg",
+                "https://curriculumforclimateagency.org/images/Plenary1_pic5.jpg"
             ],
             description: `The construction industry is responsible for 40% of global carbon emissions and architecture and other design professions have willingly, or unwillingly, sided with an uneven development that has consequences expanding from food insecurity and nutrient deficiency to imposed displacement due to collapsing ecosystems. Countries and communities that are least responsible are feeling the impact of the decisions made on the opposite side of the world ‐ a trend which will exacerbate in the future as new portions of our shared earth industrialize. As we move out of our current global health emergency and confront the next very real crisis of climate alteration, should architecture’s agenda be to rally forth in action, or can architecture construct a new type of agency in the processes of inaction?  <P>Introduction: Ole Gustavsen Oslo School of Architecture and Design <p> Moderator: Elisa Cattaneo, Politecnico di Milano & Politecnico di Torino`,
-            session: "Session: PLENARIES"
+            session: "PLENARIES"
         },
         //2
         {
             title: "Biomimetic Design in a Living Laboratory Classroom",
             people: "Jana VanderGoot, University of Maryland",
             projectTags: "BIOMIMEMTIC, MODULAR, AIR, HEALTH",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/VanderGoot1.jpg",
+            image: "https://curriculumforclimateagency.org/images/VanderGoot1.jpg",
             description: `<p>Sympoietic Structures explores environmental morphology in first-year design studio pedagogy with an interest in new fundamentals based on sympoiesis and the enfolding of ecological inputs into form and organization. While first-year design curricula are often driven by abstraction, internal logics, formal processes and a general tendency to foreground autonomous aspects of architecture as a discipline, these features increasingly beg partnerships with inter- or extra-disciplinary operations in order to engage external worlds with environmental agency.<p>
             <p>Works on biology and ecology by Maturana and Varela, Margulis, Dempster and Haraway demonstrate a parallel discussion of autonomy and inclusiveness in the form of autopoiesis (self-making, closed systems) and sympoiesis (making-together, open systems). Interestingly, these autonomous and inclusive forms of making are not mutually exclusive but are, as Haraway suggests, mutually reinforcing and nested within each other. Learning from this discourse, Sympoietic Structures looks at multi-phase project strategies wherein first-year students engage different environmental drivers to condition the meso- and macro-scale of architectural bodies and their collective organization, respectively.<p>
             <p>These strategies involve defining relationships between environmental drivers and scales of operation in order to demonstrate fundamental concepts of forming versus organizing or individual morphology versus collective morphology. They involve creative ways by which environmental drivers can be parametricized in order to inform process-based architectural entities that are serial and morphologically specific. Serialization allows first-year students to iterate, test and evaluate form and performance while morphological specificity helps them experience feedback loops between process inputs and spatio-formal outcomes.<p>
@@ -253,7 +253,7 @@
             <p>While teaching plan and section, process and time, and form and organization through cascading processes of parametric environmental input, Sympoietic Structures teaches hierarchy, heterarchy and holoarchy wherein parts become wholes and wholes become parts in a composite structure of individual and collective environmental morphology.<p>
             <p>CITATIONS / WORK CITED:
 Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-Organizing Systems, School of Planning, University of Waterloo, 2000, https://www.semanticscholar.org/author/Beth-Dempster/88912464, Accessed 07 Apr. 2020.<p> <p>Haraway, Donna J. When Species Meet. Minneapolis, The University of Minnesota Press, 2008.<p> <p>Haraway, Donna J. Staying with The Trouble: Making Kin in the Cthulucene. Durham, Duke University Press, 2016.<p> <p>Holland, John. Hidden Order: How Adaptation Builds Complexity. New York, Basic Books, 1996.<p> <p>Margulis, Lynn and Dorion Sagan. What is Life? Berkeley, University of California Press, 1995.<p> <p>Maturana, Humberto R. and Francisco J. Varela. Autopoiesis and Cognition: The Realization of the Living. Dordrecht, D. Reidel<p> <p>Publishing Company, 1980.<p>`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //3
         {
@@ -261,7 +261,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Khaled Mansy, Tom Spector, John Phillips, & Jeanne Homer, Oklahoma State University",
             projectTags: "CARBON, EMBODIED-ENERGY, BUILDING-PERFORMANCE",
             description: `<p>The authors co-teach a design studio in which building performance is highlighted as a primary educational goal. For years, we helped students to use evidence-based feedback to improve the structural, energy, and cost performance of their designs. The design-assisting tools used by the students include verified computer programs for structural design, energy simulation, and cost estimating. Most recently, in response to climate change, we examined introducing carbon analysis as an additional design-assisting tool in order to expand the definition of building performance to include the environmental impact of embodied carbon. Initial results were revealing. Findings showed that while energy performance evaluation is often (in both academia and professional practice) limited to the evaluation of operational energy, embodied energy is likely to be the determining factor in the near future. As buildings become more energy efficient and/or increasingly reliant on renewable energy sources, the higher the contribution of its embodied energy is to its overall energy consumption. When buildings reach zero energy in operation, 100% of energy consumption will be due to embodied energy. Furthermore, consideration of a building’s embodied energy is the architects’ most controllable factor. Therefore, educators must stress to students the importance of embodied energy even though educators may face a number of challenges that may hinder their ability to fully integrate carbon analysis into the design studio.`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //4
         {
@@ -283,7 +283,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Redström, J. (2008). RE: Definitions of use. Design Studies,29(4), 410–423.
             
             <P>Stam, L. M., & Eggink, W. (2014). How to interest people for the hare instead of the chase: An exploration of open script design to change consumer behavior. In Proceedings of the Design Research Society (DRS) 2014 Conference (pp. 1535–1548).`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //5
         {
@@ -291,7 +291,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Hyun Tae Jung, New York Institute of Technology",
             projectTags: "REUSE, CURATORIAL STRATEGY, PROFESSION, CASE-STUDY",
             description: `<p>New materials often have a lasting, transformative impact on the built environment. Cane fiber insulation is exemplary, although it hides behind walls. During the early twentieth century, it reshaped modern architecture, construction, and natural landscapes in the United States, contributing to the rationalization of the human body, labor, and wages. Through the Celotex Corporation, it found its way into wartime projects, such as the secret city of Oak Ridge, TN (1942-45), and transformed agriculture and architecture. By 1929, the Celotex Corporation dedicated more than 100,000 acres of land to sugarcane cultivation, effectively integrating sugar production and building material manufacturing. This paper documents Celotex&rsquo;s dramatic impact on architecture and landscape. The initial success of Celotex relied on converting sugarcane waste into a robust, fibrous building material. Celotex&rsquo;s fiberboard significantly contributed to the building boom of the 1920s. This paper also explores how Celotex used a new product known as Cemesto to further its commercial goals in the 1930s. Cemesto boards were cheap, light, and easy to assemble. They were weather-, fire-, and wear-resistant as well, having no need for insulation and finish. Cemesto boards were widely used for housing development and precipitated changes in the practice of heating and insulation specialists. This paper uses archival materials drawn from the records of the Celotex Corporation to argue its case; it also references manuals and publicly accessible patent documents. It casts a light on how architecture transformed the American sugar plantation in the 1920s and 1930s, as well as the suburban housing developments after the Second World War. It also explores the material supply chains that accelerated the growth of prefabricated heating and insulation systems during the first half of the twentieth century.`,
-            session: "Session: UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //6
         {
@@ -313,7 +313,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Rotor (Tristan Boniver, Lionel Devlieger, Michael Ghyoot, Maarten Gielen, Benjamin Lasserre, Melanie Tamm & Ariane d’Hoop & Benedikte Zitouni), “Wear makes us act”, in: Usus/Usures: État des lieux/ How things stand
             <P>(Brussels: Éditions Communauté Française Wallonie-Bruxelles, 2010) 81–104, url: http://rotordb.org/hosted/usus_usures_Rotor.pdf accessed September 20th, 2020
             <P>Rotor, “Vade-mecum pour le réemploi hors-site: Comment extraire les matériaux réutilisables de bâtiments publics?”, url: http://www.vademecum-reuse.org/Vademecum_extraire_les_materiaux_reutilisables-Rotor.pdf (accessed September 23rd, 2020)`,
-            session: "Session: UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //7
         {
@@ -332,7 +332,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Leydecker, Sylvia. Nano Materials: in Architecture, Interior Architecture and Design. Berlin: Birkhäuser, 2008.
             <P>Ritter, Axel. Smart Materials in Architecture, Interior Architecture and Design. Basel: Birkhäuser, 2007.
             <P>Wigley, Mark. White Walls, Designer Dresses: The Fashioning of Modern Architecture. Cambridge, Mass.: MIT Press, 1995.`,
-            session: "Session: UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //8
         {
@@ -347,7 +347,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Simondon, Gilbert. Du mode d’existence des objets techniques (Paris: Éditions Aubier- Montaigne 1958).
             <P>Tempest Williams, Terry. Erosion. Essays of Undoing (New York: Farrar, Straus & Giroux, 2016).
             <P>Wines, James. ‘Architecture as the Inversion of Architecture’. Oz 9 (1987).`,
-            session: "Session: UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //9
         {
@@ -355,7 +355,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Nischolan Pillay & Kamal Orie, Durban University of Technology",
             projectTags: "INFORMALITY, SETTLEMENTS, HEALTH",
             description: `The phenomenon of informality in South Africa is not a new one. Informal settlements around the cities edge started to emerge in the early 1990s as a consequence of an apartheid city planning model and the need for migrant workers within the city. Twenty-six years into the democratic dispensation, informality occurs more frequently and invariably in pockets around the city. Informal settlements on the periphery of Durban’s commercial and suburban precincts continually re-emerge in various settlement patterns on vacant, unused land as temporary/ permanent informal settlements. These settlements come with a host of physical challenges which include structural instability, poor insulation, lack of space, inadequate air circulation amongst other pertinent issues. The proximity of each dwelling unit poses even further issues of fire and safety hazards, the lack of sanitation and the use of non-potable water, creating an ecological and health hazard. However, these settlements also pose positive effects for the urban poor. The “Shanty Town” comes with several challenges; however, it enables its residents to find creative ways of housing themselves in times of need. The construction of an informal dwelling offers the users choice, perpetuating a plethora of forms and elements that unintentionally create the new urban edge of the city. These settlements present various narratives that can be valuable to curricula and pedagogical approaches; however, they continue to suffer disregard by the institutions of academia and exclusivity of practice. The prevalent attempts at responding to urban informalities are one of re-displacement of informal migrant communities through formal approaches of architecture and design. The objective of this paper is to interpret the underlying rationale in the making of informal settlements in its socio-spatial organisation and materiality towards understanding how informal dwelling responds to context and resources.  To this end, unearth the inherently hidden curriculum of an alternative making of built form through the recycling and upcycling of urban waste. At a pedagogic level, the research aims to explore participatory/ bottom-up approaches to design to promote ecologically responsive informal built form. This research will apply a pragmatic qualitative approach, in which primary and secondary data forms the research design. Primary data includes mapping of the settlements using GIS software, photographic analysis, students perceptions through qualitative interviews and interpretation of design sketching. Secondary data is in the form of a synthesised literature review which forms the theoretical and conceptual underpinning of this research. This research is essential as it will add significantly to the body of knowledge in terms of the positive lessons learned from the informal housing sector.`,
-            session: "Session: ARCHITECTURE OF MIGRATION"
+            session: "ARCHITECTURE OF MIGRATION"
         },
         //10
         {
@@ -369,7 +369,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Saarikangas, Kirsi, Liisa Horelli, “Modern Home, Environment, and Gender: Built, Planned, and Lived Spaces in Post-war Finland,” in Alexandra Staub, ed., The Routledge Companion to Modernity, Space and Gender (London; New York: Routledge, 2018), 44.
             <P>Sassen, Saskia, “Anti-Immigrant Politics Along with Institutional Incorporation?,” in Jenna Hennebry and Margaret Walton-Roberts, eds., Territoriality and Migration in the E.U. Neighbourhood: Spilling over the Wall (Heidelberg, Germany: Springer, 2014), 20-21.
             <P>Sinke, Suzanne M., “Gender and Migration: Historical Perspectives,” in The International Migration Review 40, no. 1 (2006): 82.`,
-            session: "Session: ARCHITECTURE OF MIGRATION"
+            session: "ARCHITECTURE OF MIGRATION"
         },
         //11
         {
@@ -377,10 +377,10 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Nancy Cheng, University of Oregon; Ryan Maruyama, Behnisch Architekten; Grace Aaraj, University of Oregon; Earl Mark, University of Virginia; Joachim Kieferle, Hochschule RheinMain; Marziah Rajabzadeh, University of Oregon",
             projectTags: "REFUGEES, HOUSING, SITE-DESIGN",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/TeachingAgency1.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/TeachingAgency2.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/TeachingAgency3.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/TeachingAgency4.jpg",
+                "https://curriculumforclimateagency.org/images/TeachingAgency1.jpg",
+                "https://curriculumforclimateagency.org/images/TeachingAgency2.jpg",
+                "https://curriculumforclimateagency.org/images/TeachingAgency3.jpg",
+                "https://curriculumforclimateagency.org/images/TeachingAgency4.jpg",
             ],
             description: `1. Introduction
             <P>Man-made and natural disasters demand that architects explore taking a pro-active role in spatial justice. Aggravated by systemic inequities and increased urban density, forced migration has become common. In grappling with housing those facing political and economic hardship, this research group is examining how self-build agency can be encoded into tectonic systems. Studies show that refugee communities fare better if empowered as key decision makers. We examine how building systems can enable future inhabitants to take a more significant role in shaping their environments.
@@ -399,7 +399,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Durrett, C. & McCamant, K. Creating Cohousing: Building Sustainable Communities New Society Publishers, 2011.
             <P>Chapin, Ross. Pocket Neighborhoods: Creating Small-Scale Community in a Large-Scale World, Taunton Press, 2011.
             <P>UNHCR Shelter and Settlement Section. Division of Programme Support and Management“Shelter Design Catalog.” January 2016. PDF File.`,
-            session: "Session: ARCHITECTURE OF MIGRATION"
+            session: "ARCHITECTURE OF MIGRATION"
         },
         //12
         {
@@ -407,11 +407,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Lola Ben Alon, Carnegie Mellon University",
             projectTags: "MATERIALS, DESIGN-BUILD, HANDS-ON",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DowntoEarth1 (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DowntoEarth1 (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DowntoEarth1 (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DowntoEarth1 (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DowntoEarth1 (5).jpg",
+                "https://curriculumforclimateagency.org/images/DowntoEarth1 (1).jpg",
+                "https://curriculumforclimateagency.org/images/DowntoEarth1 (2).jpg",
+                "https://curriculumforclimateagency.org/images/DowntoEarth1 (3).jpg",
+                "https://curriculumforclimateagency.org/images/DowntoEarth1 (4).jpg",
+                "https://curriculumforclimateagency.org/images/DowntoEarth1 (5).jpg",
             ],
             description: `Natural building materials are critically needed for modern building to dramatically reduce carbon-intensive and extractive construction practices. Building materials such as rammed earth, cob, hemp and straw, and fungal mycelium, offer a minimally processed, non-toxic, and community self-sufficient alternative to conventional building materials. Constructing with these materials maximizes the potentials of freely available resources, while engaging local communities, regardless of skills, including families and children. Despite these advantages, natural building materials are not widespread because their policy and environmental measures are inadequate to perform decision making in the design process, and they are not widely implemented in educational programs of building professionals.
             This study presents a design-build methodology that fosters academic and community connections for building with natural building materials. Specifically, the presented teaching structure equips interdisciplinary teams of architecture and engineering students with both theoretical knowledge and hands-on building experience of a range of natural materials for different climates. While making a sensitive choice of materials, technical details, and participatory processes, students collaborate with local communities to foster circular economy, create know-how to improve living conditions in the local context, and support a bottom-up form of capacity development. Hands-on workshops provide students with insights from field and give the opportunity to gain expertise of alternative building modes.
@@ -423,7 +423,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Niroumand, H., Kibert, C. J., Barcelo, J. A., & Saaly, M. (2017). Contribution of national guidelines in industry growth of earth architecture and earth buildings as a vernacular architecture. Renewable and Sustainable Energy Reviews, 74, 1108-1118.
             <P>Serrano, S., de Gracia, A., & Cabeza, L. F. (2016). Adaptation of rammed earth to modern construction systems: Comparative study of thermal behavior under summer conditions. Applied energy, 175, 180-188.
             <P>Miccoli, L., Müller, U., & Fontana, P. (2014). Mechanical behavior of earthen materials: A comparison between earth block masonry, rammed earth and cob. Construction and building materials, 61, 327-339.`,
-            session: "Session: CLOSING THE LOOP"
+            session: "CLOSING THE LOOP"
         },
         //13
         {
@@ -431,11 +431,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Felix Heisel & Val Warke, Cornell University",
             projectTags: "MATERIALS, EARLY-DESIGN, JOINERY, DESIGN-BUILD, MAKING",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Felix1.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Felix2.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Felix3.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Felix4.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Felix5.jpg",
+                "https://curriculumforclimateagency.org/images/Felix1.jpg",
+                "https://curriculumforclimateagency.org/images/Felix2.jpg",
+                "https://curriculumforclimateagency.org/images/Felix3.jpg",
+                "https://curriculumforclimateagency.org/images/Felix4.jpg",
+                "https://curriculumforclimateagency.org/images/Felix5.jpg",
             ],
             description: `Human influence on the socio-economic and ecologic systems of planet Earth has become so dominant that, in May 2019, the Anthropocene Working Group of the International Commission on Stratigraphy officially voted for the introduction of a new unit on the Geological Time Scale — the epoch of humans, or the Anthropocene.[1] This development is especially relevant to architects and engineers, since buildings account for more than 50% of the consumption of global finite resources, 39% of global carbon dioxide emissions, as well as 50% of global solid waste production, over their full life cycles.[2] All of these factors are dominant causes of climate change. We believe that the construction industry requires a complete paradigm shift in the way we design, build, and manage our built environment: a shift from linear resource consumption to circular material usage.
             This paper describes the application of this theory into the curriculum of a first-year Bachelor of Architecture design studio, as well as the teaching methodology developed to facilitate this paradigm shift. The significant steps of the process are illustrated through examples of student work from the Spring 2020 design studio.
@@ -444,7 +444,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>CITATIONS / WORK CITED:
             <p>[1] Anthropocene Working Group. 2019. “Results of the Binding Vote by AWG.” Subcommission on Quaternary Stratigraphy. http://quaternary.stratigraphy.org/working-groups/anthropocene/.
             <p>[2] Transparency Market Research. 2020. “Construction Waste Market – Global Industry Analysis, Size, Share, Growth, Trends, and Forecast 2017 – 2025.” Albany, NY: Pre-Book Report; International Energy Agency and the United Environment Programme. 2018. “2018 Global Status Report: Towards a zero-emission, efficient and resilient buildings and construction sector.”`,
-            session: "Session: CLOSING THE LOOP"
+            session: "CLOSING THE LOOP"
         },
         //14
         {
@@ -452,11 +452,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Mary Hale, Northeastern University",
             projectTags: "MATERIALS, DESIGN-BUILD, RE-USE",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Hale01.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Hale02.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Hale03.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Hale04.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Hale05.jpg",
+                "https://curriculumforclimateagency.org/images/Hale01.jpg",
+                "https://curriculumforclimateagency.org/images/Hale02.jpg",
+                "https://curriculumforclimateagency.org/images/Hale03.jpg",
+                "https://curriculumforclimateagency.org/images/Hale04.jpg",
+                "https://curriculumforclimateagency.org/images/Hale05.jpg",
             ],
             description: `Ubiquitous in our studios and environmentally corrosive: foam board, foam core, acrylic, and PVC to name a few examples, are energy intensive, toxic to produce and persistent.  These persistent materials may try to find an alibi for use in the longer life of a building, but in an architectural model or installation, that alibi falls apart.  A model’s serviceable lifespan may be a mere twenty minute presentation followed by twenty minutes to photograph, and then into overflowing waste bins whose contents flow to a landfill where they will last through millennia.
             The Circular Installation Studio confronts the disconnect between the nearly eternal lifespan of our materials and the exceedingly short lifespan of the physical artifacts of our design process.  We confront this issue through materials research and experimentation, materials analysis, design of temporary physical artifacts, and disposal of these artifacts.  Thereby the studio provides a window into material flows, from whence they come and to where they go, giving students a greater appreciation for how their choices impact the environment.
@@ -473,7 +473,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Stevens, E. S. Green Plastics: An Introduction to the New Science of Biodegradable Plastics. Princeton: Princeton University Press, 2002.
             <p>Thomas, Dana. Fashionopolis: The Price of Fast Fashion & the Future of Clothes, 2020.
             <p>Weisman, Alan. The World without Us. New York, NY: Picador/Thomas Dunne Books/St. Martin’s Press, 2008.`,
-            session: "Session: CLOSING THE LOOP"
+            session: "CLOSING THE LOOP"
         },
         //15
         {
@@ -483,7 +483,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             description: `Water shorelines served as the origin and evolution of civilisations and cities, which occupied river basins, deltas, and floodplains, taking advantage of the water ecosystems for agriculture, farming, fishing and transport. Human civilisations shaped rivers and shorelines to control the variant periods of drought and floods present in such ecosystems. Since industrialisation, the modifications of the natural environment created substantially greater impacts, resulting in a disconnection between the built environment and the natural water systems. Therefore, the current impacts of unpredictable events linked to climate change are amplified without the natural protection inherent to water ecosystems, exponentially impacting and threatening inhabitation.
             Newcastle’s delta and estuary is located in the second largest catchment in New South Wales (NSW), the Hunter River Basin, and was the first urban settlement in NSW in the 18th century. Before European settlement in Australia, the Awabakal aboriginal tribe inhabited the coast around Newcastle. Water was integral to their culture and a way of living since the area has a wealth of biodiversity including marine environments, river, estuarine wetlands, creeks and forested areas. The estuary and delta compose a unique landscape, strongly modified by an intensive history of land reclamation, industrial activity, and coal extraction since European settlement. Efforts have being done to relink the city and the waterfront, although vulnerable ecosystems have been destroyed and the entire shoreline has been modified. As a consequence, the city is facing, as many other coastal and estuary cities, the effects of unpredictable events and the effects of climate change.
             <p>“WaterLines”, the undergraduate design studio ran at the School of Architecture and Built Environment at University of Newcastle, explore the implications of living in the threshold between land and water as space altered by the transitory actions of water: reimagining the connection between water, humans and non-human inhabitation; envisioning challenges and opportunities for waterfront cities being exposed to unpredictable events and dynamics forces (effects of climate change, recurrent and redundant floods affecting the city as well as the risk of potential tsunamis); and speculating with methods and approaches to design with water as an element in constant transformation and as an instrument to re-think the design of the city and its relationship with the non-built environment. Projects propose speculative urban and architectonic scenarios for Newcastle 2050-2100, developing tools and techniques appropriate for working on a particular type of landscapes of change: a city archipelago.`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //16
         {
@@ -491,7 +491,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Samantha Martin-McAuliffe, University College Dublin",
             projectTags: "OUTDOOR-CLASS, DESIGN-BUILD, DECOLONIZING",
             description: `In the very least, the NAAB &lsquo;History and Global Culture&rsquo; requirement demonstrates a commitment to diversifying the curricula of design schools. Yet it can also be interpreted as an invitation to reimagine and de-colonise the ways we teach architecture in the round. Who communicates the histories and building practices of other people? Charged with the task of teaching global architecture at our school, we jettisoned the idea of expanding the traditional, lecture-based survey course and instead established an active-learning initiative that foregrounds the knowledge of many rather than a privileged few. This 'we' is a collective of educators from the disciplines of architecture, biology, archaeology, world heritage conservation and civil engineering. This paper presents the first case-study of our teaching initiative: a &lsquo;learning laboratory&rsquo; located in the Samburu, a region in north-central Kenya that is about 400km north of Nairobi. Our lab is a co-creation between members of the nomadic-pastoralist Samburu tribe and architecture students. Led and supervised by local women, it fully documents the entire process of constructing a vernacular Samburu house. Students are first grounded in the deep-rooted history of this architecture and its attendant culture and ecology. They learn to identify building materials, and are taught how to site the house in the landscape. Under the guidance of locals, the students construct the house and learn how it should be prepared for inhabitation. Entwined in this process is an awareness of how this way of building will soon be history in the most literal sense: Samburu architectural culture is vanishing due to the impacts global warming. As such, this collaborative process brings architecture into convergence with climate change, migration, race and gender. The abiding principal here is the acquisition of knowledge without presumptions. Our students learn through listening to a plurality of voices, and this not only informs but also shapes our wider curriculum. Once home, our students become teachers, communicating and sharing their experience through peer-learning and an architectural exhibition. This in turn is used to teach global culture across the school and to develop further case-studies for the initiative.`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //17
         {
@@ -499,11 +499,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Cleary Larkin, Jeff Carney & Morris Hylton, III University of Florida",
             projectTags: "WATER, RESILIENCE, CROSS-DISCIPLINE",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Larkin1 (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Larkin1 (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Larkin1 (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Larkin1 (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Larkin1 (5).jpg",
+                "https://curriculumforclimateagency.org/images/Larkin1 (1).jpg",
+                "https://curriculumforclimateagency.org/images/Larkin1 (2).jpg",
+                "https://curriculumforclimateagency.org/images/Larkin1 (3).jpg",
+                "https://curriculumforclimateagency.org/images/Larkin1 (4).jpg",
+                "https://curriculumforclimateagency.org/images/Larkin1 (5).jpg",
             ],
             description: `University of Florida has advanced cross-disciplinary  coursework that centers applied design research on climate change, with focus on social equity, placemaking, and adaptation in coastal communities. Case studies from the Florida Climate Institute’s (FCI) Spring Fieldcourse and the Historic Preservation Program’s Preservation Institute Nantucket (PIN) illustrate the evolution of these initiatives, and the instrumental shaping of the upcoming Envision Resilience Nantucket Challenge, a multi-university effort to engage a nationwide network of design courses in adaptation research.
             <p>The FCI Fieldcourse has spanned ecological systems, built environment and community engagement frameworks with faculty and students from design, planning, historic preservation, engineering, law, communications, science, and agriculture, among others. The 2016 Cedar Key Fieldcourse focused on ecological, coastal and marine issues in a small fishing village on the Gulf of Mexico. The 2018 St. Augustine Fieldcourse evolved to study built environment climate impacts, with students proposing adaptation strategies for increased coastal flooding. The 2020 Port St. Joe Fieldcourse focused on long-term recovery and resilience following Hurricane Michael (2018). Students participating in the Fieldcourse have consistently noted a broadening of their perspective and a new interest in the value of a cross-disciplinary approach for their future professional work.
@@ -517,7 +517,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Maher, R., Maher, M., Mann, S., & McAlpine, C. A. (2018). Integrating design thinking with sustainability science: A Research through Design approach. Sustainability Science, 13(6), 1565.
             <p>Masterson, J. H., Peacock, W. G., Zandt, S. S. V., Grover, H., Schwarz, L. F., & Cooper, J. T. (2014). Planning for community resilience: a handbook for reducing vulnerability to disasters. Washington, D.C.: Island Press.
             <p>Moore, S. A. (2017). Knowledge, Education, Power and Production: Public Interest Design in North America. Journal of Architectural Education, 71(1), 46–55."`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //18
         {
@@ -525,14 +525,14 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Moa Carlsson, Remo Pedreschi, & Simone Ferracina, University of Edinburgh",
             projectTags: "REUSE, SUPPLYCHAINS, MATERIALFLOWS",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Moa1.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Moa2.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Moa3.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Moa4.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Moa5.jpg",
+                "https://curriculumforclimateagency.org/images/Moa1.jpg",
+                "https://curriculumforclimateagency.org/images/Moa2.jpg",
+                "https://curriculumforclimateagency.org/images/Moa3.jpg",
+                "https://curriculumforclimateagency.org/images/Moa4.jpg",
+                "https://curriculumforclimateagency.org/images/Moa5.jpg",
             ],
             description: `The relationship between design, material processes and their application has been a consistent theme in the teaching and research at the [redacted] School of Architecture and Landscape Architecture. This work was strengthened and consolidated with the formation of the Architectural Research Workshop and its increased ability to produce large-scale prototypes, and has intensified in recent years as we rethink architectural pedagogy in response to the impacts of climate breakdown and its associated injustices. This paper presents a selection of courses and pedagogies, developed by academic staff at [redacted], that seek to take the environmental crisis as an opportunity to prototype novel construction materials, fabrication protocols, and architectural design methods, foregrounding an open-ended design process that privileges encounters with pre-existing materials over the architect&rsquo;s own aspirations and ideas. In three teaching projects, and across several years and programmes, we outline an approach that emphasises reuse and repurposing practices in relation to making (material processes and affordances) and making visible (diverting material flows; reclaiming values and valuing protocols).  These practices encourage a direct engagement in material processes through experiments and full-scale prototyping, embodying a probabilistic approach according to which final outputs are drawn and developed from the material processes themselves. This open-ended pedagogy has investigated the Circular Economy and explored the material affordances--both at the molecular and molar scale--of a diverse range of objects: from typical construction materials such as CLT, aluminum framing and PLA, to atypical ones like dredged waste, hair, and discarded objects (rags, metal scraps, glass bottles, milk cartons, etc.). Here, notions of architectural authorship and hierarchy are contested and modified both within the studio--with the tutor and student sharing a trajectory of discovery, rather than imparting knowledge to one another--and in the exchanges between the architect and its materials, which no longer endorse the expression or embodiment of intents, but are encountered and &lsquo;listened to&rsquo; as co-designers.   These approaches demand that work be not (only) assessed according to final outputs (the beautiful or considered object or building as desirable outcome), but in relation to the technical platforms, material flows, supply chains and labour practices associated with them, questioning our very assumptions and biases in the adjudication of meaning, beauty and value. In the case of the sourcing, diversion and repurposing of waste materials, for example, a vast amount of work is associated with invisible cleaning and reconditioning practices, and with the establishment of reliable local networks of participation, collaboration and care.  The work presented here is therefore not predicated on technological solutionism. Our project briefs aim to develop imaginative proposals and critical responses to the climate emergency, challenging past and present patterns of growth, consumption and extraction and engaging sites as &lsquo;thickened&rsquo; landscapes rich in cultural and material histories, and as collections of distant geologies, industrial processes, and social relations. The paper presents these on-going pedagogical experiments, identifying tentative successes as well as the resistance these approaches encounter in mainstream architectural culture and media.`,
-            session: "Session: THE CLIMATE CLASSROOM"
+            session: "THE CLIMATE CLASSROOM"
         },
         //19
         {
@@ -540,14 +540,14 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Christoph Korner, Woodbury University",
             projectTags: "TIMBER, EMBODIED-ENERGY",
             images: [
-                 "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/OpenTherm (1).jpeg",
-                 "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/OpenTherm (2).jpeg",
-                 "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/OpenTherm (3).jpeg",
-                 "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/OpenTherm (4).jpeg",
-                 "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/OpenTherm (5).jpeg",
+                 "https://curriculumforclimateagency.org/images/OpenTherm (1).jpeg",
+                 "https://curriculumforclimateagency.org/images/OpenTherm (2).jpeg",
+                 "https://curriculumforclimateagency.org/images/OpenTherm (3).jpeg",
+                 "https://curriculumforclimateagency.org/images/OpenTherm (4).jpeg",
+                 "https://curriculumforclimateagency.org/images/OpenTherm (5).jpeg",
             ],
             description: `The construction industry is responsible for 40% of global carbon emissions and architecture and other design professions have willingly, or unwillingly, sided with an uneven development that has consequences expanding from food insecurity and nutrient deficiency to imposed displacement due to collapsing ecosystems. Countries and communities that are least responsible are feeling the impact of the decisions made on the opposite side of the world ‐ a trend which will exacerbate in the future as new portions of our shared earth industrialize. As we move out of our current global health emergency and confront the next very real crisis of climate alteration, should architecture’s agenda be to rally forth in action, or can architecture construct a new type of agency in the processes of inaction?"`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //20
         {
@@ -567,7 +567,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P> 2Olgyay, Victor, et al. Design with Climate: Bioclimatic Approach to Architectural Regionalism – New and Expanded Edition. Revised, Princeton University Press, 2015.
             <P>3 Banham, Reyner. The Architecture of the Well-Tempered Environment. 2nd ed., The University of Chicago Press, 1984.
             <P>4Course objectives from EBS Course Syllabus. Specific Syllabus not provided as a means to abide by requested anonymity.`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //21
         {
@@ -575,11 +575,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Marcos Barinas, University of Illinois, Urbana-Champaign",
             projectTags: "WATER, RESILIENCE, ECOSYSTEMS",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Mange (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Mange (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Mange (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Mange (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Mange (5).jpg",
+                "https://curriculumforclimateagency.org/images/Mange (1).jpg",
+                "https://curriculumforclimateagency.org/images/Mange (2).jpg",
+                "https://curriculumforclimateagency.org/images/Mange (3).jpg",
+                "https://curriculumforclimateagency.org/images/Mange (4).jpg",
+                "https://curriculumforclimateagency.org/images/Mange (5).jpg",
             ],
             description: `Do not fight forces, use them.’
             Buckminster Fuller (American Architect 1895 – 1983)
@@ -604,7 +604,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P> 2Olgyay, Victor, et al. Design with Climate: Bioclimatic Approach to Architectural Regionalism – New and Expanded Edition. Revised, Princeton University Press, 2015.
             <P>3 Banham, Reyner. The Architecture of the Well-Tempered Environment. 2nd ed., The University of Chicago Press, 1984.
             <P>4Course objectives from EBS Course Syllabus. Specific Syllabus not provided as a means to abide by requested anonymity.`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //22
         {
@@ -612,10 +612,10 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Susannah Dickinson & Aletheia Ida, University of Arizona",
             projectTags: "DESERT, BORDER, BOUNDARIES",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Temporal (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Temporal (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Temporal (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Temporal (4).jpg",
+                "https://curriculumforclimateagency.org/images/Temporal (1).jpg",
+                "https://curriculumforclimateagency.org/images/Temporal (2).jpg",
+                "https://curriculumforclimateagency.org/images/Temporal (3).jpg",
+                "https://curriculumforclimateagency.org/images/Temporal (4).jpg",
                 ],
             description: `The climate change emergency requires that we drastically re-evaluate the design of the built environment and our pedagogical methods, tools and curricula. This essay addresses the issue directly through dissemination of both the framework and outcomes from an upper-level architecture design studio course that focuses on this challenging problem and hypothesizes on future, broader curriculum changes. “There is a common conceptual framework underlying all these complex phenomena and that the dynamics, growth, and organization of animals, plants, human social behavior, cities, and companies are, in fact, subject to similar generic ‘laws’.”[1] At its core, the methodological framework insists upon interscalar observation and performative analysis across natural biome dynamics, the built environment, and sociocultural conditions to understand their connections and relationships and see that our climate emergency is having a disproportionate impact on disenfranchised communities.
             Our essay disseminates digital methodologies for linking interscalar contexts through grounded research and climate change investigations within the Sonoran Desert region of Arizona, USA and Sonora, Mexico. This robust natural biome is a complex natural ecosystem with climate change challenges of drought, forest fires, rising currents, and heavy storms. In addition, because of the challenging political context at the border of Mexico and the United States and the presence of a physical boundary, migration paths, ecological flows and humanitarian crises are further exacerbated [2]. The methodology integrates knowledge of climate and complexity theories with advanced digital technologies from different disciplines to provide emergent potentials for our future. We investigate the use of digital tools, such as ArcGISPro for regional data mapping, microphotography imaging software and point cloud dynamics, and intermediary Rhino-Grasshopper plug-in platforms to link the regional and micro-scales with dynamic systems’ logics. In addition, the integration of Processing and Arduino tools allows for live data collection and feedback into visual animations, both from global social networks and local ‘invisible’ information, which inform aspects of stochastic and heuristic modeling techniques leading to alternative decisions in the emergent, form-finding design process.
@@ -624,7 +624,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>[1] West, G. (2017), Scale – The Universal Laws of Life, Growth and Death in Organisms, Cities and Companies, Penguin Books, New York.
             <p>[2] Beaumont, L. J et al., 2011. Impacts of climate change on the world’s most exceptional ecoregions. Proceedings of the National Academy of Sciences – PNAS, 108(6), pp.2306–2311.
             <p>[3] Mitchell, M. (2009), Complexity – A Guided Tour, Oxford University Press, Oxford.`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //23
         {
@@ -636,7 +636,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             Debbie Chen, University of Wisconsin-Milwaukee
             Joyce Hwang, Ants of the Prairie, University at Buffalo
             Julia Barfield, Marks Barfield Architects, Queen’s University Belfast`,
-            session: "Session : SPECIAL FOCUS"
+            session: "SPECIAL FOCUS"
         },
         //24
         {
@@ -655,7 +655,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p> 4.“Sector Summary: Buildings,” Project Drawdown, accessed April 21, 2020, https://drawdown.org/sectors/buildings
             <p> 5. Joel Sisolak and Kate Spataro, “Toward Net Zero Water: Best Management Practices for Decentralized Sourcing and Treatment” (Cascadia Green Building Council, March 2011), https://living-future.org/wp-content/uploads/2016/11/Toward_Net-Zero_Water.pdf.
             <p>6. Jonathan Wright, “From Red List to Ready List – Finding Building Products That Are Not Harmful to People, Humans, or the Environment,” Building Energy, Spring 2017.`,
-            session: "Session: DESIGN AGENCY"
+            session: "DESIGN AGENCY"
         },
         //25
         {
@@ -675,7 +675,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>[4] Lepik, Andres. Small scale, big change: new architectures of social engagement. The Museum of Modern Art, 2010.
             <p>[5] Asquith, Lindsay, and Marcel Vellinga, eds. Vernacular architecture in the 21st century: Theory, education and practice. Taylor & Francis, 2006.
             <p>[6] Fathy, Hassan. “Natural energy and vernacular architecture.” (1986).`,
-            session: "Session: DESIGN AGENCY"
+            session: "DESIGN AGENCY"
         },
         //26
         {
@@ -696,7 +696,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Orr, David W. The Nature of Design: Ecology, Culture, and Human Intention. New York: Oxford University Press, 2002.
             <p>Sussman, Ann and Justin B. Hollander. Cognitive Architecture: Designing for How We Respond to the Built Environment. New York: Routledge, 2015.
             <p>Tonkiss, Fran. Space, the City and Social Theory: Social Relations and Urban Forms. Cambridge: Polity Press, 2005.`,
-            session: "Session: DESIGN AGENCY"
+            session: "DESIGN AGENCY"
         },
         //27
         {
@@ -704,11 +704,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Aleksandr Mergold, Cornell University; Jason Austin, University of the Arts",
             projectTags: "REPRESENTATION, CHUNK",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Core (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Core (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Core (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Core (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Core (5).jpg",
+                "https://curriculumforclimateagency.org/images/Core (1).jpg",
+                "https://curriculumforclimateagency.org/images/Core (2).jpg",
+                "https://curriculumforclimateagency.org/images/Core (3).jpg",
+                "https://curriculumforclimateagency.org/images/Core (4).jpg",
+                "https://curriculumforclimateagency.org/images/Core (5).jpg",
                 ],
             description: `Core-sampling has long been used as a method to uncover hidden conditions by archeologists, geologists or glaciologist (or medial doctors, on a much smaller scale of biopsy) by physically extracting fragments of the natural and built elements embedded into their contextual situations as a coherent object. This investigative process, instrumental to understanding the various complex strata, served as a generator for several architectural design studios. The concept of core-sampling was used to investigate specific buildings and larger urban conditions, in order to map, reveal, and muse upon the past, present and future of a complex, messy multi-dimensional construct that is an architecture that has been in use, misuse or disuse for a number of decades.
             <P>
@@ -720,7 +720,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Otero-Pailos, Jorge, Erik Langdalen, Thordis Arrhenius (eds.), Experimental Preservation, Lars Mueller, 2016
             <P>Ruskin, John, The Seven Lamps of Architecture, Smith, Elder & Co, 1849
             <P>DeSilvey, Caitlin. Curated Decay: Heritage beyond Saving. Minneapolis, Minnesota: University of Minnesota Press, 2017`,
-            session: "Session: ABSTRACT BY NATURE"
+            session: "ABSTRACT BY NATURE"
         },
         //28
         {
@@ -728,11 +728,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Felix Heisel + Sasa Zivkovic, Cornell University",
             projectTags: "PAPER, PERFORMANCE, EARLY-DESIGN",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Paper (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Paper (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Paper (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Paper (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Paper (5).jpg",
+                "https://curriculumforclimateagency.org/images/Paper (1).jpg",
+                "https://curriculumforclimateagency.org/images/Paper (2).jpg",
+                "https://curriculumforclimateagency.org/images/Paper (3).jpg",
+                "https://curriculumforclimateagency.org/images/Paper (4).jpg",
+                "https://curriculumforclimateagency.org/images/Paper (5).jpg",
                 ],
             description: `This paper outlines and discusses a number of novel pedagogical strategies developed for a recent First Year Design Studio at [redacted]. The global climate and resource crises are calling for paradigm shifts in the way we design, build, and manage our physical environment. Importantly, those paradigm shifts also fundamentally challenge the way we teach architecture. The studio aims to introduce students to the issues, elements, processes and interdependencies of both sustainability (environment, climate, politics) and architectural design (geometry, materiality, form, structure).
             The ON PAPER First Year Design Studio aims to challenge our understanding of paper, engaging it both in theory and practice, as medium and material, as mediator and actor. Throughout the semester, paper creates the foundation and constitutes the common thread which we use to dissect architecture, pedagogy, and spatial exploration while training the skills, methods and tools of the discipline, as well as critical and proactive student minds. In this context, paper is understood as a practical and widely available resource that is easy to manipulate with basic tools, which is essential during a pandemic.
@@ -742,7 +742,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>CITATIONS / WORK CITED:
             <p>[1] Foster, Hal, Terence A. Senter, Hattula Moholy-Nagy, Nicholas Fox Weber, and Michael White. Albers and Moholy-Nagy: From the Bauhaus to the New World. Yale University Press, 2006.
             <p>[2] Greg Lynn (Ed.). (1993). AD: Folding in architecture (Vol. 102). Academy Editions Limited.`,
-            session: "Session: ABSTRACT BY NATURE"
+            session: "ABSTRACT BY NATURE"
         },
         //29
         {
@@ -750,11 +750,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Kevin Marblestone & Emily Whitbeck, Massachusetts Institute of Technology",
             projectTags: "TIME, VIDEO, EARLY-DESIGN",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/FourthWallPedagogy_StillFrame1.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/FourthWallPedagogy_StillFrame2.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/FourthWallPedagogy_StillFrame3.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/FourthWallPedagogy_StillFrame4.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/FourthWallPedagogy_StillFrame5.jpg",
+                "https://curriculumforclimateagency.org/images/FourthWallPedagogy_StillFrame1.jpg",
+                "https://curriculumforclimateagency.org/images/FourthWallPedagogy_StillFrame2.jpg",
+                "https://curriculumforclimateagency.org/images/FourthWallPedagogy_StillFrame3.jpg",
+                "https://curriculumforclimateagency.org/images/FourthWallPedagogy_StillFrame4.jpg",
+                "https://curriculumforclimateagency.org/images/FourthWallPedagogy_StillFrame5.jpg",
                 ],
             description: `Contemporary design pedagogy has failed to produce architects that can operate effectively within today’s time-based global crises. Embedded in (and dependent on) industries where ‘permanence’ is measured in 10-30 year warranties and sustainability is achieved by moving points around a spreadsheet, architecture has internalized many of these misconceptions about the nature of time. By considering only time-span, architects have trapped themselves in a false dichotomy, perceiving structures to be either temporary or permanent. The type of architecture produced exists asynchronously to the vast temporal scale and complexity of the global climate crisis, and challenges the seemingly inextricable link between architecture and time. The profession must reevaluate this relationship through the creation of a new pedagogy, educating a generation of practitioners that can think differently about time. This project, Pedagogy of the Fourth Wall, focuses on rethinking the true beginning of the design profession, the moment of inception, the first-year design studio.
             Design education’s formidable legacy of first-year studio exercises, from the Nine Square Grid Problem to The Cube and The Hidden Room, have historically inducted students into the profession using critical principles of abstraction and composition to explore tectonics and form. However, these same exercises have effectively stifled the aptitude of students for temporal thinking through their insistence on static conventions of orthography. The media students work through directly impacts how they think and grow as designers. In order for the next generation of architects to engage the time-based urgencies of the Anthropocene, architectural education must engage a new critical eye on time and develop tools and methods for exploring its cyclical, recursive nature.
@@ -764,7 +764,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>
             CITATIONS / WORK CITED:
             <p>Franzen, Ulrich, Gómez Alberto Pérez, and Kim Shkapich. Education of an Architect: a Point of View, the Cooper Union School of Art & Architecture. New York: Monacelli Press, 1999.`,
-            session: "Session: ABSTRACT BY NATURE"
+            session: "ABSTRACT BY NATURE"
         },
         //30
         {
@@ -772,11 +772,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Jason Vignieri-Beane, Pratt Institute",
             projectTags: "EARLY-DESIGN, WATER, ECOLOGY",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/JVB (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/JVB (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/JVB (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/JVB (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/JVB (5).jpg",
+                "https://curriculumforclimateagency.org/images/JVB (1).jpg",
+                "https://curriculumforclimateagency.org/images/JVB (2).jpg",
+                "https://curriculumforclimateagency.org/images/JVB (3).jpg",
+                "https://curriculumforclimateagency.org/images/JVB (4).jpg",
+                "https://curriculumforclimateagency.org/images/JVB (5).jpg",
                 ],
             description: `Sympoietic Structures explores environmental morphology in first-year design studio pedagogy with an interest in new fundamentals based on sympoiesis and the enfolding of ecological inputs into form and organization. While first-year design curricula are often driven by abstraction, internal logics, formal processes and a general tendency to foreground autonomous aspects of architecture as a discipline, these features increasingly beg partnerships with inter- or extra-disciplinary operations in order to engage external worlds with environmental agency.
             <p>Works on biology and ecology by Maturana and Varela, Margulis, Dempster and Haraway demonstrate a parallel discussion of autonomy and inclusiveness in the form of autopoiesis (self-making, closed systems) and sympoiesis (making-together, open systems). Interestingly, these autonomous and inclusive forms of making are not mutually exclusive but are, as Haraway suggests, mutually reinforcing and nested within each other. Learning from this discourse, Sympoietic Structures looks at multi-phase project strategies wherein first-year students engage different environmental drivers to condition the meso- and macro-scale of architectural bodies and their collective organization, respectively.
@@ -792,7 +792,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Holland, John. Hidden Order: How Adaptation Builds Complexity. New York, Basic Books, 1996.
             <p>Margulis, Lynn and Dorion Sagan. What is Life? Berkeley, University of California Press, 1995.
             <p>Maturana, Humberto R. and Francisco J. Varela. Autopoiesis and Cognition: The Realization of the Living. Dordrecht, D. Reidel Publishing Company, 1980.`,
-            session: "Session: ABSTRACT BY NATURE"
+            session: "ABSTRACT BY NATURE"
         },
         //31
         {
@@ -820,7 +820,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             [12]Pan C, Vermaak N, Romero C, Neti S, Hoenig S, Chen C-H. Efficient optimization of a longitudinal finned heat pipe structure for a latent thermal energy storage system. Energy Conversion and Management 2017;153:93–105. https://doi.org/10.1016/j.enconman.2017.09.064.
             <p>
             [15]Nikolov N. Parametric Design of Photo-catalytic Concrete Cladding Panels. Architectural Research Centers Consortium 2013:513–8.`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //32
         {
@@ -828,11 +828,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Robert Fleming, Thomas Jefferson University",
             projectTags: "ZERO-ENERGY, BUILDING-PERFORMANCE",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Radical1 (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Radical1 (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Radical1 (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Radical1 (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Radical1 (5).jpg",
+                "https://curriculumforclimateagency.org/images/Radical1 (1).jpg",
+                "https://curriculumforclimateagency.org/images/Radical1 (2).jpg",
+                "https://curriculumforclimateagency.org/images/Radical1 (3).jpg",
+                "https://curriculumforclimateagency.org/images/Radical1 (4).jpg",
+                "https://curriculumforclimateagency.org/images/Radical1 (5).jpg",
                 ],
             description: `<P>Now that we have entered the second decade of the 21st century, the threat of climate change has morphed into a horrific reality of death, destruction, wide spread suffering with conditions worsening in our lifetimes.[i] Partial complicity in this disaster lies with the architect, a professional who claims health, safety and welfare as a directive for ethical practice but has only recently begun to see the need for radical, meaningful and profound change.[ii] [iii] [iv] Architectural educators have offered incremental improvements to current educational models which yield minimal, if not superficial results. [v] [vi]
             The premise for the paper is quite simple. If we are to truly fight climate change, we’ll need to make fundamental and systemic changes to literally every aspect of the design studio. In other words, simply shifting to the goal high performance design without shifting the primary motivations, guiding philosophies, integrative frameworks and holistic design processes will be insufficient to acheive the kind of sea change that is so desperately needed in our society.
@@ -846,7 +846,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>[v] https://www.architectsjournal.co.uk/news/opinion/architecture-schools-need-to-reform-their-teaching-to-combat-climate-change
             <p>[vi] https://raf.arh.bg.ac.rs/bitstream/handle/123456789/140/138.pdf?sequence=1&isAllowed=y
             <p>[vii] Integral Sustainable Design is a framework developed for architects by Mark DeKay as an evolution on Integral Theory by Ken Wilbur`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //33
         {
@@ -854,11 +854,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Lawrence Blough, Pratt Institute; Simone Giostra, Politecnico di Milano",
             projectTags: "SOLAR, ZERO-ENERGY, FORM, URBANISM",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/sculpt (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/sculpt (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/sculpt (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/sculpt (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/sculpt (5).jpg",
+                "https://curriculumforclimateagency.org/images/sculpt (1).jpg",
+                "https://curriculumforclimateagency.org/images/sculpt (2).jpg",
+                "https://curriculumforclimateagency.org/images/sculpt (3).jpg",
+                "https://curriculumforclimateagency.org/images/sculpt (4).jpg",
+                "https://curriculumforclimateagency.org/images/sculpt (5).jpg",
                 ],
             description: `For more than ten years, New York City has promoted energy efficiency policies – including PlaNYC and the Greener, Greater Buildings Plan – that will radically reshape the education of architects toward energy performance in buildings, reduction of emissions, and the efficient use of resources. Our series of undergraduate studios investigates the relationship between the building form and energy performance, using form-finding algorithms based on solar radiation to shape mid-rise housing typologies for NYC. Currently funded by the Institute of Design and Construction Foundation, we have been exploring the important environmental design opportunities that exist within building envelopes, particularly in residential buildings that are responsible for most of the greenhouse gas emissions and power consumption.  By integrating and extending current solar technologies such as photovoltaic (PV) and solar thermal (ST) for the predominantly vertical infrastructure of the city, this research targets innovative building mass and surface strategies that are highly energy efficient, generate on-site renewable energy, and produce a new vocabulary for sustainable construction. As part of the initiative, we have also formed an international exchange program between our two institutions to share content and expertise.
             <p>
@@ -869,7 +869,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             Three different scales were introduced to investigate the energy implications of the different formal strategies: 1) urban morphology addressed issues of zoning, overshadowing of neighbouring buildings, and the identification of individual building lots within a typical urban block; 2) building typology focused on the articulation of the building volume using setbacks, balconies, cantilevers and courtyards to maximize solar potential and regulate exchanges of daylight and heat between the building and the site; 3) building envelope targeted the manipulation of the surface geometry of the façade to optimize the integration of PV and ST collectors without negatively affecting daylighting levels in the building interiors.
             CITATIONS / WORK CITED:
             Knowles, Ralph L.  Energy and Form; an Ecological Approach to Urban Growth. Cambridge: MIT Press, 1974.`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //34
         {
@@ -886,7 +886,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             CITATIONS / WORK CITED:
             <p>1 Rahm, Philippe. “Meteorological encyclopedia.” PRAXIS: Journal of Writing+ Building 13 (2011): 103-111.
             <p>2 Fernández, Guillén, and Luis Fernández-Galiano. Fire and memory: On architecture and energy. Mit Press, 2000.`,
-            session: "Session: ENVIRONMENTAL MORPHOLOGY"
+            session: "ENVIRONMENTAL MORPHOLOGY"
         },
         //35
         {
@@ -894,7 +894,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Moderators: Luis Callejas + Jorgen Johan Tandberg",
             projectTags: "IMAGE, IMAGINATION, FUTURE", 
             description: `This session will provide the opening of the virtual exhibition of Imag(in)ing a Future Imperfect. Building upon the conference’s theme on the state of design pedagogy in the face of climate change, selected artist’s will be invited to present their image and discuss their process of image making as a form of climate agency. The work will be discussed in terms of medium, content and message. This session will also serve to announce the themes for the expanded Call for Images and physical exhibition to be held at Pratt Institute as a part of the 2022 Charter Summit.`,
-            session: "Session : SPECIAL FOCUS"
+            session: "SPECIAL FOCUS"
         },
         //36
         {
@@ -926,7 +926,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>            Prominski M., Stokman A., Zeller S., Stimberg D., Voermanek H., Bajc K. (2017), River.Space.Design. Planning Strategies, Methods and Projects for Urban Streams (Basel: Birkhäuser).
             <P>           Waldheim C. (2016), Landscape as Urbanism. A General Theory (Princeton: Princeton University Press).
             <P>            Zeunert J. (2017), Landscape Architecture and Environmental Sustainability. Creating Positive Change Through Design (New York: Bloomsbury).`,
-            session: "Session : INHABITING THE HYDROSPHEREIES"
+            session: "INHABITING THE HYDROSPHEREIES"
         },
         //38
         {
@@ -934,8 +934,8 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Traci Birch, Louisiana State University",
             projectTags: "WATER, RESILIENCE, WATER",
             images: [
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Delta (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Delta (2).jpg",
+                "https://curriculumforclimateagency.org/images/Delta (1).jpg",
+                "https://curriculumforclimateagency.org/images/Delta (2).jpg",
                 ],
             description: `In August 2016, a low-pressure system dropped 22-31” of rain in three days across Louisiana’s capital region (see Figure 1).  Resultant flooding took 13 lives, damaged roughly 145,000 structures, and brought the Gulf Coast region to a standstill with multi-day closures of interstate highways. Touted as a “one-in-1,000-year flood” this was the third such event in 2016 in the southeastern US, and one of ten since 2010. Climate predictions indicate severe precipitation events are likely to increase in frequency and intensity (Prein et al., 2016). While Louisiana has demonstrated large-scale risk reduction is possible through coastal protection and restoration, significant inland flooding indicates coastal management alone is not sufficient (Birch & Carney, 2019). There remains a gulf between demonstrated vulnerabilities and systematic deployment of new design practices at sufficient scale to reduce regional flooding.
             To bridge this gap, the Louisiana State University’s Coastal Sustainability Studio (CSS) launched a multi-disciplinary effort known as Inland from the Coast (IFC). Founded in 2009, CSS is a trans-disciplinary institute engaging architects, landscape architects, planners, coastal scientists, and civil engineers to research and respond to issues of resettlement, restoration, and socioeconomic sustainability. In 2017, the Gulf Research Program of the National Academies of Science and the Robert Wood Johnson Foundation funded IFC as part of the Thriving Communities program.  The three-year grant expanded the CSS model to include faculty and students from across the university – including disciplines such as geography, psychology, and law; as well as the Universities of New Orleans and Florida. Funding required innovative applied research approaches. To achieve this, the team also included members from local chapters of American Institute of Architects, American Planning Association, and American Society of Landscape Architects.
@@ -964,7 +964,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             Birch, T., & Carney, J. (2019). Delta Urbanism: Aligning Adaptation with the Protection and Restoration Paradigm in Coastal Louisiana. Technology|Architecture + Design, 3(1)
             <p>
             Bilskie, M. V., & Hagen, S. C. (2018). Defining Flood Zone Transitions in Low-Gradient Coastal Regions. Geophysical Research Letters, 45(6)`,
-            session: "Session : INHABITING THE HYDROSPHERE"
+            session: "INHABITING THE HYDROSPHERE"
         },
         //39
         {
@@ -981,7 +981,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             Anna Lowenhaupt Tsing, The Mushroom at the End of the World (2015)
             <p>            Timothy Morton, We’re Doomed! in The End of the World has Already Happened, BBC Radio 4 (2020)
             Anna Tsing, Heather Swanson, Elaine Gan, Nils Bubandt (eds), Arts of Living on a Damaged Planet (2017)`,
-            session: "Session: DESIGN AGENCY"
+            session: "DESIGN AGENCY"
         },
         //40
         {
@@ -989,11 +989,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Cristina Parreño, Massachusetts Institute of Technology",
             projectTags: "INDIGENOUSCULTURES, CROSS-DISCIPLINARY, TEMPORAL",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (5).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (1).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (2).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (3).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (4).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (5).jpg",
                 ],
             description: `Effectively acting upon our most urgent crises requires a profound understanding of how to mentally inhabit the timescales at which they operate. This paper will discuss Deep Time Architecture, a new pedagogical experiment that aims to radically expand architecture’ time sensibilities; to create a space where architecture, design, art and culture become critical tools to cultivate the long-term attitudes and behaviors that are so essential to face the deep timescales of our most urgent crises like climate change. Nobel Laureate Paul Crutzen has proposed that humans have become a geological force, now influencing the Earth’s systems more than all non-human processes combined. The Deep Time Architecture course is set under the premise that as the geological actors that we have become, we must develop the deep time literacy demanded by the great challenge of becoming true planetary stewards.  The course will specifically draw from the knowledge of indigenous cultures and their intrinsic perspectives in their relation with time, life, death and the Earth cycles, looking for instance at the “seven generation principle”. At the core of Deep Time Architecture is the understanding that developing longer perspectives will change the way we behave in the short term and that architecture, design, art and culture are foundational in transforming the way we think about our collective role in shaping the future, from the technologies we develop to the kinds of laws we make.
             <p>
@@ -1011,7 +1011,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>
             CITATIONS / WORK CITED:
             <p>Crutzen, P. Geology of Mankind. Nature (2002) 415,23`,
-            session: "Session: DESIGN AGENCY"
+            session: "DESIGN AGENCY"
         },
         //41
         {
@@ -1019,11 +1019,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Jomy Joseph, Oslo School of Architecture and Design; Maggie Hansen, Tulane University",
             projectTags: "WICKED-PROBLEMS, FUTURE, DECOLONIZING",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/DeepTimeArchitecture (5).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (1).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (2).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (3).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (4).jpg",
+                "https://curriculumforclimateagency.org/images/DeepTimeArchitecture (5).jpg",
                 ],
             description: `The trajectories of the Earth’s climate and ecosystem services are unraveling (Steffen et al., 2018). As the worst climate predictions come to pass, it is important to introspect on the predictable consequences of our global economic system designed for extractivism. A system that has favored a handful of people (Chancel & Piketty, 2015) at the cost of human and ecological well-being, putting the life sustaining biosphere on the path to “biological annihilation” (Ceballos et al., 2017). Today, this negation and erasure of our collective possibilities and futures constitute a “defuturing” (Fry, 1999). This paper will discuss these perspectives from observations and discussions with students in a workshop called “ReFuturing Studio”. The workshop, held across three countries, from both the Global South and the Global North, has attempted to engage with young designers on the urgency of climate breakdown and sustainable futures beyond “business as usual” (BAU). Curiously, we find that many of the students envision futures where problems of overpopulation, resource wars, scarcity, rogue artificial intelligence, climate refugees, mass extinction are to be ‘solved’ through totalitarianism, militarism, techno-optimism with digital and biotech domination, and global surveillance as necessary interventions to preserve future progress and development and avoid climate disaster. Confronted with the profoundly wicked problems of climate breakdown, far too often they inadvertently reinforced colonial, patriarchal and ecologically destructive assumptions of today into the future. Thus, their attempts at imagining alternative futures results in a future ‘world’ being destroyed, arguably further entrenching their climate despair for lack of action.
 
@@ -1034,7 +1034,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Escobar, A. (2018). Designs for the Pluriverse: Radical Interdependence, Autonomy, and the Making of Worlds. Duke University Press. http://ebookcentral.proquest.com/lib/ahono/detail.action?docID=5322528
             <P> Fry, T. (1999). A new design philosophy: An introduction to defuturing. UNSW Press.
             <P>Steffen, W., Rockström, J., Richardson, K., Lenton, T. M., Folke, C., Liverman, D., Summerhayes, C. P., Barnosky, A. D., Cornell, S. E., Crucifix, M., Donges, J. F., Fetzer, I., Lade, S. J., Scheffer, M., Winkelmann, R., & Schellnhuber, H. J. (2018). Trajectories of the Earth System in the Anthropocene. Proceedings of the National Academy of Sciences, 115(33), 8252–8259. https://doi.org/10.1073/pnas.1810141115`,
-            session: "Session: DESIGN AGENCY"
+            session: "DESIGN AGENCY"
         },
         //42
         {
@@ -1042,10 +1042,10 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Carla Aramouny, American University of Beirut",
             projectTags: "WASTE-STREAMS, WATER",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Micro (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Micro (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Micro (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Micro (4).jpg",
+                "https://curriculumforclimateagency.org/images/Micro (1).jpg",
+                "https://curriculumforclimateagency.org/images/Micro (2).jpg",
+                "https://curriculumforclimateagency.org/images/Micro (3).jpg",
+                "https://curriculumforclimateagency.org/images/Micro (4).jpg",
                 ],
             description: `In Lebanon, inefficiencies of infrastructures and the deterioration of the natural environment, from negligence and lack of sustainable governmental strategies, are rapidly spiraling out of control leading to severe impacts on the local community. This is particularly evident in water environments, fresh water supply, and infrastructure, where the situation has led to polluted waterways and increased shortage in supply despite high rainfall and snow levels. Though geographically rich with high mountains, rivers, and springs, Lebanon in 2019 was listed by the World Resource Institute1 (WRI) as one of the countries with the most severe water stress levels. The relatively small country is further delineated by powerful  neighbors, where the interconnection of waterways and fluid networks results in further restrictions and constraints on this natural resource. Fears of political corruption and inflated costs for projected mega infrastructures by the government have as a result mobilized the local civil society into action.
             Within such framework, I teach an advanced elective for undergraduate architecture students, that pushes them to use design and visualization as advocacy tools to affect change on infrastructural systems in Lebanon. In the past session of the course, we focused on water as an urgent concern, and expanded the research and proposals to problematics affecting the geopolitics of water: from territorial scales of conflict and negligence, to local infrastructural deterioration, and the urgency for action and design engagement.
@@ -1056,7 +1056,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>
             CITATIONS / WORK CITED:
             <p>1 – Rutger Hofste, Paul Reig and Leah Schleifer, “17 Countries, Home to One-Quarter of the World’s Population, Face Extremely High Water Stress”, World Resource institute (WRI), August 2019, viewed at`,
-            session: "Session : MONSTROUS INFRASTRUCTURE"
+            session: "MONSTROUS INFRASTRUCTURE"
         },
         //43
         {
@@ -1064,11 +1064,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Brittany Utting, Rice University; Daniel Jacobs, University of Houston",
             projectTags: "SOLAR, GREEN-HOUSE, HISTORY, CLASSROOM, TYPOLOGY",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/PALM-HOUSE-01.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/PALM-HOUSE-02.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/PALM-HOUSE-03.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/PALM-HOUSE-04.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/PALM-HOUSE-05.jpg",
+                "https://curriculumforclimateagency.org/images/PALM-HOUSE-01.jpg",
+                "https://curriculumforclimateagency.org/images/PALM-HOUSE-02.jpg",
+                "https://curriculumforclimateagency.org/images/PALM-HOUSE-03.jpg",
+                "https://curriculumforclimateagency.org/images/PALM-HOUSE-04.jpg",
+                "https://curriculumforclimateagency.org/images/PALM-HOUSE-05.jpg",
                 ],
             description: `PALM-HOUSE is an ongoing research and design project investigating the relationships between natural ecosystems, material commodities, and ecological care. The project takes the form of a speculative design for the Orto Botanico in Padua, Italy, a Medieval garden founded in 1545. Within this walled garden is a palm house protecting Goethe’s Palm, a Mediterranean Palm planted in 1585 that served as the inspiration for Goethe’s The Metamorphosis of Plants. The architecture of this palm house, performing as a protective shelter for a single specimen, can be critically examined as an index of the changing relationship between a living ecosystem and the technical, environmental, and material systems required for its care.
             The development of greenhouse technologies reveals a constant tension between architectures of care and systems of extraction. Early greenhouses were often temporary structures built to protect non-native species vulnerable to extremes in temperature and weather. Industrial forms of horticultural production, however, transformed these seasonal shelters into large-scale infrastructures, emerging from the reciprocal development of iron, glass, and colonial capitalism (as embodied in the Kew Gardens palm house from 1844). Today, new generations of greenhouse landscapes take the form of immense distribution centers for living material, supporting a global network of living specimen commodities and horticultural products. The scale of these ecological infrastructures, incorporating big data with surveillance technologies, provide these logistical enclaves with full biological, climatic, and digital control.
@@ -1079,7 +1079,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>[1] Damian White, Environments, Natures and Social Theory: Towards a Critical Hybridity (London: Palgrave, 2017).
             <p>
             [2] Timothy Morton, Dark Ecology: For a Logic of Future Coexistence (New York: Columbia University Press, 2016.`,
-            session: "Session : MONSTROUS INFRASTRUCTURE"
+            session: "MONSTROUS INFRASTRUCTURE"
         },
         //44
         {
@@ -1087,11 +1087,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Alexandra Barker, Pratt Institute",
             projectTags: "INFRASTRUCTURE, FOOD, ENERGY",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Crisicity 1.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Crisicity 2.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Crisicity 3.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Crisicity 4.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Crisicity 5.jpg",
+                "https://curriculumforclimateagency.org/images/Crisicity 1.jpg",
+                "https://curriculumforclimateagency.org/images/Crisicity 2.jpg",
+                "https://curriculumforclimateagency.org/images/Crisicity 3.jpg",
+                "https://curriculumforclimateagency.org/images/Crisicity 4.jpg",
+                "https://curriculumforclimateagency.org/images/Crisicity 5.jpg",
                 ],
             description: `In the Anthropocene thesis, human activity has affected all ecologic, geologic and biological systems and has eroded the boundary between human and non-human life and between nature and culture, with catastrophic impacts on the Earth that have brought us to a point of climate crisis.  Nature is partly a human creation.   As recent texts have argued, the current social and health crises are direct resultants of human actions dating back to the time of Western colonization.
             <p>
@@ -1117,7 +1117,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>https://www.anthropocenemagazine.org/2020/08/a-memo-from-the-year-2050/
             <p>https://billionoysterproject.org/reefs/
             DiPaola, Francesco, Inzerillo, Laura, Pedone, Pedro, Santagati, Cettina.  “Anamorphic Projection:  Analogical/Digital Algorithms.” Nexus Network Journal, November 2014.`,
-            session: "Session : MONSTROUS INFRASTRUCTURE"
+            session: "MONSTROUS INFRASTRUCTURE"
         },
         //45
         {
@@ -1125,11 +1125,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Jesse Martyn, University of British Columbia",
             projectTags: "COLLECTIVEFORM, INDUSTRY, MECHANICAL-SYSTEMS, DECOMMISSIONED-SITES",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Industry (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Industry (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Industry (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Industry (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Industry (5).jpg",
+                "https://curriculumforclimateagency.org/images/Industry (1).jpg",
+                "https://curriculumforclimateagency.org/images/Industry (2).jpg",
+                "https://curriculumforclimateagency.org/images/Industry (3).jpg",
+                "https://curriculumforclimateagency.org/images/Industry (4).jpg",
+                "https://curriculumforclimateagency.org/images/Industry (5).jpg",
                 ],
             description: `Globalization and capitalism are resulting in the emergence of more and more urbanized landscapes.  As the world becomes increasingly globalized, ports become ideal places for investment and development.  Because of its strategic coastal location, Prince Rupert has one of the fastest growing port terminals in North America and is the epicentre for the exploitation of natural resources in Northern British Columbia.  As Prince Rupert evolves, peak oil is reached, and non-renewable resources decline, we can imagine a transition toward a renewable resource economy, an influx of renewable resource industries, and an influx of diverse groups of people.
             Fumihiko Maki’s 1964 Investigations in Collective Form is adapted to act as the guiding framework for this project.  Maki’s writing suggests, “Our concern here is not, then, a “master plan,” but a “master program,” since the latter term includes a time dimension.  As a physical correlate of the master program, there are “master forms” which differ from buildings in that they, too, respond to the dictates of time.  Collective form represents groups of buildings and quasi-buildings—the segment of our cities.  Collective form is, however, not a collection of unrelated, separate buildings, but of buildings that have reasons to be together.”   Maki’s three major approaches to collective form—compositional form, mega form, and group form—are used as the fundamental base layer for this project.
@@ -1139,7 +1139,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             CITATIONS / WORK CITED:
             Maki, Fumihiko. Investigations in Collective Form. Washington: School of Architecture,
             Washington University, 1964.`,
-            session: "Session : MONSTROUS INFRASTRUCTURE"
+            session: "MONSTROUS INFRASTRUCTURE"
         },
         //46
         {
@@ -1155,7 +1155,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Kwesi Daniels, Tuskegee University
             <P>Megan Groth, Woodbury University
             <P>Green Reconstruction, Buell Center`,
-            session: "Session : SPECIAL FOCUS"
+            session: "SPECIAL FOCUS"
         },
         //47
         {
@@ -1163,7 +1163,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Christoph Korner, Woodbury University",
             projectTags: "HEALTH, SAFETY, COMFORT, STANDARDS, ACCREDIDATION",
             description: 'Human safety, health, and comfort are essential parts of our profession, but lack an academic discussion, which makes an integration in the curriculum sometimes challenging. At the same time the traditional output of our students can not represent them in any satisfactory way. How do we draw health and comfort in a floor plan? How do we show safety in a rendering? This dilemma is even more daunting in case of an upcoming CIDA accreditation visit. Parts of Standard 7 and Standard 13, as well as the entire Standard 14 can become a challenge to show in students’ work. How can we document an understanding of indoor air quality, active and passive thermal systems, or acoustical control?  While studying to become a WELL Accredited Professional, it became clear that these aspects of our work are at the center of WELL certification. “The WELL Building Standard is a vehicle for buildings and organizations to deliver more thoughtful and intentional spaces that enhance human health and well-being. Backed by the latest scientific research, WELL includes strategies that aim to advance health by setting performance standards for design interventions, operational protocols and policies and a commitment to fostering a culture of health and wellness.” We decided to use the research and standards of the International WELL Building Institute as a framework for a seminar entitled ‘Human Wellbeing’. The 1-unit course covers the 7 concepts of WELL certification – Air, Water, Nourishment, Light, Fitness, Comfort, and Mind – and explores the synergetic effects between them. The students get an understanding of the interconnection of the built environment and the human body systems. The class also prepares the students to succeed in becoming a WELL Accredited Professional, if they choose to do so. The new class has been developed over the summer of 2020 and is being taught in Fall 2020. The results of the first iteration of it will be available for the 2021 ACSA Teachers Conference. CITATIONS / WORK CITED: Petermans, Ann, and Rebecca Cain, editors. Design for Wellbeing : An Applied Approach. Routledge, 2020. INSERT-MISSING-DATABASE-NAME, INSERT-MISSING-URL. Accessed 20 Sept. 2020. Cook, Justin W, editor. Sustainability, Human Well-Being, and the Future of Education. Palgrave Macmillan, 2019. INSERT-MISSING-DATABASE-NAME, INSERT-MISSING-URL. Accessed 20 Sept. 2020. <p> Cooper, Rachel, et al., editors. Wellbeing, a Complete Reference Guide. Volume Ii, Wellbeing and the Environment /, John Wiley & Sons, 2014. INSERT-MISSING-DATABASE-NAME, INSERT-MISSING-URL. Accessed 20 Sept. 2020.',
-            session: "Session : UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //48
         {
@@ -1171,7 +1171,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Jumana Abbas, Columbia University",
             projectTags: "REPRESENTATION, RUINS, THOERY, CURATORIAL",
             description: 'In 1521, the Italian Renaissance diplomat and writer Niccolò Machiavelli wrote a treaty on the art of war that was accompanied with a series of diagrammatic figures depicting an analytical placement of troops, soldiers and bunkers. The acclaimed father of modern political philosophy and political science showcased the logistics of military planning as well as the erasure of bodies, space and technology. This representational illustration is arguably no different from the other drawings produced in preparation for war and military occupation, revealing a planar understanding of the city as a functional diagram to be controlled at times of destruction.  Across disparate spaces of occupation, strategies for attack, defense and retaliation are preplanned and drawn on top of aerial plans of urban cities. These drawing reduced bodies to numerical figures and politicized spaces to abstract lines. Positions of attack become the main features of these urban spaces; arrows, lines, military strategies are the political schemes for launching assault, occupying indigenous lands and ensuring long-term occupation.  However, the histories of the city’s representation were mainly centered on the administrative and religious center of the Polis, highlighting the inherent militarization of an urban space as the global condition. This modernist epistemology addresses a systematic relationship between the physical infrastructure and the notions of citizenship and democracy, which overshadows alternative, and critical, views about the entanglement of the urban warfare with questions of spatial politics, violence and injustice. In addition, these politicized representation flatten these complex relations, instead of gendering new methodologies, inquiries, archives and engage with the way the architecture discipline is defined and challenged. Hence, the central question here is how to shift the study of these histories of representation to include these new domains and narratives? In the form of visual essay, the presentation will recapitulate a series of drawings of planned strategies, modes of fight or flight, and ruins from across geographies and time and will examine the production of knowledge about representations of urban warfare. The proposal reframes these drawings as an urgent reminder to rethink the agency of knowledge about the tools of representations that sit at the cross intersection of urban warfare, visual studies and architecture theory.',
-            session: "Session : UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //49
         {
@@ -1197,7 +1197,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             Nye, David E. Electrifying America: Social Meanings of a New Technology. Cambridge, Massachusetts: The MIT Press, 1997. First edition in 1992.
             <p>
             Young, Liam. “Neo-Machine: Architecture Without People.” Architectural Design 89, 1 (January/February 2019): 6–13.`,
-            session: "Session: UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //50
         {
@@ -1205,11 +1205,11 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Bushra Nayeem, University of Kansas",
             projectTags: "DEVELOPMENT, INTERMEDIATE-TECHNOLOGY, PROFESSION, CASE-STUDY",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/EnvironTech (1).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/EnvironTech (2).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/EnvironTech (3).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/EnvironTech (4).jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/EnvironTech (5).jpg",
+                "https://curriculumforclimateagency.org/images/EnvironTech (1).jpg",
+                "https://curriculumforclimateagency.org/images/EnvironTech (2).jpg",
+                "https://curriculumforclimateagency.org/images/EnvironTech (3).jpg",
+                "https://curriculumforclimateagency.org/images/EnvironTech (4).jpg",
+                "https://curriculumforclimateagency.org/images/EnvironTech (5).jpg",
                 ],
             description: `Globalization is the result of growth in international organizations (e.g. United Nations, International Monetary Fund, and World Trade Organization) that promote cross border exchanges and finance, resulting in a profoundly diverse economic order . Therefore, knowledge and information are traded internationally, and the process of immigration has become much more prominent and lately, more contentious. In the past, such transitional trajectories led to more global integration such as the acceleration of technological innovations, broader political changes, and liberalized economic policies (Barber 2016). Technological innovations of the 1960s saw exceptional western prosperity from men walking on the moon to futuristic architectural fantasies based on the use of ingenious sci-fi graphics, plug-in-capsule cities, walking cities, and living pods (Frampton 2007b). Thus, western countries started a massive campaign to transfer capital and technology to force rapid industrialization in developing countries (Jackson 1984) (Baron 1984). These foreign-technology imports only benefitted a small minority of urban elites and increased urbanization, pushing the rural poor to move to urban areas in search of financial opportunities. The amplified stress on urban infrastructure and public services led to increasing squalor, severe impacts on public health and distortions in the social structure. At that juncture, economist E.F. Schumacher first envisioned the concept of intermediate technology adapted to the unique needs of developing countries after working with India and Burma (now Myanmar) in 1955. As soon as architecture was brought into line with the idea of intermediate technology, its role started to shift from the contemporary professional architect and modern movement towards alternatives contained in the idea of self-sufficiency. This gave rise to the concept of “minimum,” and the idea of re-use, in addition to concerns about the ecological and social destruction wrought by industrialization, and a desire for people and nature to coexist again. The Minimum Cost Housing Group (MCHG) that emerged at McGill University in Montreal in 1970 as a hub for architects coming from different parts of the world to embrace this intermediate technology not only to challenge the inaccessibility of the abstract grammar of contemporary architecture but also to devise ways for architects to serve the poor sectors of society not normally addressed by the profession (Nataraj and Bhatt 1980) (Pawley 1975). (Rybczynski 1977) (Bhatt 2011). This milieu that shaped this paradigm shift in the profession had remained a tangential, isolated story. In this paper, I will investigate this connection and question entanglement of architecture with environmental conditions, economies, and ecologies offered by globalization. The study focuses on two intersecting areas: the impacts within architectural culture leading to conflicting approaches (over-consumption and minimum cost); and the backdrop in which international development agencies came to embrace the intermediate and environmental solutions from developing countries to further their goals of expanding economic growth.
             <p>CITATIONS / WORK CITED:
@@ -1223,7 +1223,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Nataraj, V.S., and Vikram Bhatt. 1980. “A Low Cost Garbage Solar Water Heater.”
             <p>Pawley, Martin. 1975. “Garbage Housing.” In Garbage Housing. Krieger Pub. Co. (February 1975).
             <p>Rybczynski, Witold. 1977. Use It Again Sam.Pdf. McguillUniversity,Montreal, Canada.`,
-            session: "Session: UNLEARNING ARCHITECTURE"
+            session: "UNLEARNING ARCHITECTURE"
         },
         //51
         {
@@ -1233,7 +1233,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             description: `How would architects design the city if it was only designed for the most vulnerable of us? This seemingly obvious question proved a fertile ground for questioning the most fundamental assumptions about the design process. By thinking deeply and broadly about one specific but large vulnerable group, children, this course revealed the power of a complete change in perspective in inspiring deep empathy in design. As Juliet Kinchin, curator at MoMA said, “We have been periodically reminded how the forces of modernity shape design and childhood in ways that are extraordinary and exhilarating yet also complex and contradictory.” (2012) In a time of social unrest and ecological degradation, children are disproportionately impacted by every crisis in this world, and yet they are seldomly the subject of architectural research or education, unless it involves building typologies specific for them. Their existence in design is typically limited to schools, daycare, and playgrounds – the spaces where they are segregated into. What if instead of making special accommodations or spaces for children, we designed the entire city for them? This graduate research studio started with the premise that designing the city for children would make the best environment for everyone. Students had to examine a simple question: what is the ideal experience for the child in the city? This is a question designers rarely ask when designing urban spaces and buildings. Yet there is ample evidence that an immersive experience in natural landscapes is important for the cognitive, physical and emotional development of the child. Because this idea seems potentially at odds with the benefits of dense and compact urban development, and the patterns of extreme urbanization, this raised a question that is often asked for very different reasons: how to integrate “natural” experiences in everyday life beyond the traditional and centralized park space. The liberating  paradox is that the most significant and historically consequential natural spaces in urban environments are completely constructed, so why not invent a entirely new urban landscape from the perspective of the child? If for the child, learning happens everywhere, what planning principles and design strategies could guide the design of everyday spaces for mobility, dwelling, working, and leisure? Students engaged with these critical questions during the research phase. They examined pedagogical concepts and metaphors for play and environment-based learning. They reviewed evidenced-based  principles from child development sciences. Through site visits, interviews with experts, and field work, students developed a framework of themes representing the biggest challenges in design today: from health to risk aversion to resilience. This served as a point of departure for engaging in individual design investigations that explored the potential for a new constructed urban landscape for childhood in contemporary cities. The projects were unexpected in range and scale: from new street design guidelines to hybrids of infrastructure and school, to coastal resilience planning.
             <p>CITATIONS / WORK CITED:
             <p>Juliet Kinchin. Century of the Child, Growing By Design 1900-2000. (New York, NY: Museum of Modern Art, 2012)`,
-            session: "Session: CHARTER FOR HEALTH + JUSTICE"
+            session: "CHARTER FOR HEALTH + JUSTICE"
         },
         //52
         {
@@ -1248,7 +1248,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>CITATIONS / WORK CITED:
             <p>Braveman, P., Arkin, E., Orleans, T., Proctor, D., & Plough, A. (2017). What Is Health Equity? And What Difference Does a Definition Make? [Report]. Robert Wood Johnson Foundation
             <p>Daniel, H., Bornstein, S., & Kane, C. (2018). Addressing Social Determinants to Improve Patient Care and Promote Health Equity: An American College of Physicians Position Paper. Annals of Internal Medicine, 168 (8), 577-578. https://doi:10.7326/M17-2441`,
-            session: "Session: CHARTER FOR HEALTH + JUSTICE"
+            session: "CHARTER FOR HEALTH + JUSTICE"
         },
         //53
         {
@@ -1267,7 +1267,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Keates, S. (2015). Design for the value of inclusiveness. In J. Van den Hoven, P. E. Vermaas, & I. van de Poel (Eds.), Handbook of Ethics, Values and Technological Design (pp. 383-402). , Dordrecht: Springer.
             <p>Moulaert, F., MacCallum, D., & Hillier, J. (2013). Social innovation: Intuition, precept, concept, theory and practice. In F. Moulaert, D. MacCallum, A. Mehmood, & A. Hamdouch (Eds.), The international handbook on social innovation. Collective action, social learning and transdisciplinary research (Chapter 1, pp. 13–24). Cheltenham: Edward Elgar.
             <p>Rawls, J. (1985). Justice as fairness. Philosophy & Public Affairs, 14(3), 223-251.`,
-            session: "Session: CHARTER FOR HEALTH + JUSTICE"
+            session: "CHARTER FOR HEALTH + JUSTICE"
         },
         //54
         {
@@ -1275,7 +1275,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Nischolan Pillay & Belula Tecle Misghina, Durban University of Technology",
             projectTags: "DIVERSITY, EQUITY, HEALTH",
             description: `The Athens Charter of 1933 promoted the development of modern, functional cities to ensure the health and wellbeing of its citizens. The four functions defined therein were addressed through rationalization of what constituted healthy urban life, including psychological wellbeing of the individual within the collective community.  On the other hand, in what is now known as the global South, the apartheid regime in South Africa incited acts of racial segregation and human rights violations. Reinforced by the controversial Land Act of 1913, the apartheid movement set itself deep into the land infrastructure by pushing non-whites away from the city – a process by design in the form of the apartheid city model. This model is what defines the current inequities at every facet of the human dwelling, including social factors such as health and safety, access to resources, wealth parity and the ecological quality of living environments. The cavernous apartheid city model thereby perpetuates a segregated society of privilege and deprivation. Whereas the Athens Charter sought to address the challenge of individual and community, in the urban context, the apartheid city model presents problems of displaced and dived communities. One such instance, in which such disparity plays out, is in the city of Durban, a melting pot of Indo-African culture and a typical apartheid city struggling to break through the glass ceilings and walls in a democratic South Africa. Durban, in recent times, has felt the brunt of several urban, socio-economic, health, political, cultural and civil issues. Although these issues may seem familiar to other cities of the world, the apartheid city by design adds a layer of burden to the issues faced by citizens participating in city life. Through exclusion by, a sense of disconnect creates uneasiness between the individual and the collective as different people and communities grapple for opportunities in the city. This ambiguity has created generational qualms and negative perceptions of the city, albeit in the democratic era. Previous work in this research area mention but a few challenging factors; however, several perceptions emerge from different social perspectives, deeply defined by apartheid segregation. It is, therefore, this research aims to define and interpret these various factors contributing to negative perceptions to affect the latent potentiality of the city, in order to formulate an approach for the agency through advanced active pedagogy within an inclusive 21st-century curriculum for redress and the spatial transformation of Durban. This research adopts a pragmatic mixed-method qualitative approach. The synthesis of secondary sources of literature contributes to forming the theoretical and conceptual framework of this study. Primary methods for this research include semi-structured interviews of architecture students to gauge the perceptions of the city of Durban concerning different socio-economic, cultural, racial and political backgrounds. This research aims to integrate the new-found knowledge to implement a critical pedagogical approach in solution-driven city..`,
-            session: "Session: CHARTER FOR HEALTH + JUSTICE"
+            session: "CHARTER FOR HEALTH + JUSTICE"
         },
         //55
         {
@@ -1292,7 +1292,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>
             CITATIONS / WORK CITED:
             1. New report: The building and construction sector can reach net zero carbon emissions by 2050. (n.d.). Retrieved October 12, 2020, from http://www.worldgbc.org/news-media/WorldGBC-embodied-carbon-report-published`,
-            session: "Session: MONSTROUS INFRASTRUCTURE"
+            session: "MONSTROUS INFRASTRUCTURE"
         },  
         //56
         {
@@ -1311,7 +1311,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <p>Verma, Niraj. 2011. ‘Urban Design – An Incompletely Theorized Project’. In Companion to Urban Design, edited by Banerjee Tridib and Anastasia Loukaitou-Sideris, 57–69. Taylor & Francis Group.
             <p>
             <p>W.J. Rittel, Horst, and Melvin M. Webber. 1973. ‘Dilemmas in a General Theory of Planning’. Policy Sciences4: 155–69.`,
-            session: "Session: MONSTROUS INFRASTRUCTURE"
+            session: "MONSTROUS INFRASTRUCTURE"
         },
 
         //57
@@ -1329,7 +1329,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             <P>Jeana Ripple, University of Virginia
             <P>Alexandra Rempel, University of Oregon
             <P>Lola Ben Alan, Columbia University`,
-            session: "Session : SPECIAL FOCUS"
+            session: "SPECIAL FOCUS"
         },
         //58
         {
@@ -1337,10 +1337,10 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             people: "Kiel Moe, McGill University ; Albena Yaneva, Univeristy of Manchester UK",
             projectTags: "HEALTH, WELLBEING, REPRESENTATION",
             images:[
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Closing1.jpg",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Closing2.png",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Closing3.png",
-                "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Closing4.png",
+                "https://curriculumforclimateagency.org/images/Closing1.jpg",
+                "https://curriculumforclimateagency.org/images/Closing2.png",
+                "https://curriculumforclimateagency.org/images/Closing3.png",
+                "https://curriculumforclimateagency.org/images/Closing4.png",
                 ],
             description: `We, as cross continental educators, must collectively address our global emergency as well as the opportunity to circumvent architectures’ role in perpetuating it. These pedagogies require deconstruction of architecture’s master narratives as much as a ground‐up envisioning of its future. In order to change the course of architecture’s curricula, we must re‐assemble our core values by asking critical questions concerning our future contributions to our climate.<P> Introduction Harriet Harriss, Pratt Institute <P> Moderator: Rania Ghosn, MIT`,
             session: "PLENARIES"
@@ -1350,7 +1350,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "Peace, Commerce, Friendship",
             people: "Brittany Utting, Rice University; Daniel Jacobs, University of Houston",
             projectTags: "IMAGE, IMAGINATION, FUTURE, ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition1.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition1.jpg",
             description: "",
             session: "EXHIBITION"
         },
@@ -1359,7 +1359,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "Palm-House",
             people: "Brittany Utting, Rice University; Daniel Jacobs, University of Houston",
             projectTags: "IMAGE, IMAGINATION, FUTURE, ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition2.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition2.jpg",
             description: "",
             session: "EXHIBITION"
         },
@@ -1368,7 +1368,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "Preserved",
             people: "Audrey Fischer, Yale University",
             projectTags: "IMAGE, IMAGINATION, FUTURE, ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition3.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition3.jpg",
             description: "",
             session: "EXHIBITION"
         },
@@ -1377,7 +1377,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "Saliocene",
             people: "Audrey Fischer, Yale University",
             projectTags: "IMAGE, IMAGINATION, FUTURE, ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition4.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition4.jpg",
             description: "",
             session: "EXHIBITION"
         },
@@ -1386,7 +1386,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "Sympoietic Structures: Water ",
             people: "Jason Vignieri-Beane, Pratt Institute",
             projectTags: "IMAGE, IMAGINATION, FUTURE, ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition5.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition5.jpg",
             description: "",
             session: "EXHIBITION"
         },
@@ -1395,7 +1395,7 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "Splitting Soil",
             people: "Nancy, Morgado Diniz, Central Saint Martens",
             projectTags: "IMAGE, IMAGINATION, FUTURE, ",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition6.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition6.jpg",
             description: "",
             session: "EXHIBITION"
         },
@@ -1404,21 +1404,33 @@ Dempster, Beth. Sympoietic and Autopoietic Systems: A New Distinction for Self-
             title: "The Fourth Wall",
             people: "Kevin Marblestone & Emily Whitbeck, Massachusetts Institute of Technology",
             projectTags: "IMAGE, IMAGINATION, FUTURE,",
-            image: "https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/Exhibition7.jpg",
+            image: "https://curriculumforclimateagency.org/images/Exhibition7.jpg",
             description: "",
             session: "EXHIBITION"
         },
         
     ];
 
+    var globals = {
+    };
+
     var processProjects = function () {
+        var globalTags = [];
         projects.forEach(function (project) {
-            project.tags = project.projectTags.toUpperCase().split(",").map(tag => $.trim(tag));
+            project.tags = project.projectTags.toUpperCase().split(",")
+                .map(tag => $.trim(tag))
+                .filter(tag => tag && tag.length > 0)
+                .map(tag => {
+                    globalTags.push(tag);
+                    return tag;
+                });
         });
+        globals.globalTags = globalTags.sort().filter((value, index, array) => index === array.indexOf(value));
     }
 
     return {
         init: init,
-        projects: projects
+        projects: projects,
+        globals: globals
     };
 })();

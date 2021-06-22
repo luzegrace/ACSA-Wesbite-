@@ -183,7 +183,7 @@ body {
 
 
 
-.topnav input[type=text] {
+.topnav input[type=search] {
     position: fixed;
     background: rgba(255,255,255,0);
     left: 25px;
@@ -227,7 +227,7 @@ input::focus {
     outline: 0;
 }
 
-.topnav input[type=text]:focus {
+.topnav input[type=search]:focus {
     outline: none;
 }
 
