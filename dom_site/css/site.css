@@ -471,145 +471,197 @@ grid-item {
  ////////////////////////////////////////////////////
  */
 
- #popup-modal {
-     right:0;
-     height:100%;
-     max-width: 450px;
+ .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable {
+width: 40% !important;
  }
-
-.ui-widget-content {
-    border: 1px solid #aaaaaa00;
-    background: #ffffffd7;
-    color: #070707;
+ #popup-modal {
+    right:0;
+    height:100%;
 }
 
-    .ui-widget-content .images img {
-        width: 445px;
-        height: 300px;
-        object-fit: contain;
-        cursor: zoom-in;
-        border-color: #00000000;
-    }
-
-    .ui-widget-content .images img[aria-hidden="false"] {
-        display: none !important;
-        height: auto;
-    }
-
-.ui-widget {
-    font-family: Verdana,Arial,sans-serif;
-    font-size: .7em;
+.ui-dialog {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    bottom:0;
+   /* top: 0; */
+   /* right: 0; */
+   /* left: 0; */
+   /* padding: .2em; */
+   /* outline: 0; */
+   /* bottom:0; */
 }
+
 
 .ui-widget.ui-widget-content {
-    border: 1px solid #7e2b2b00;
+    width: 30%;
+    max-height: 99%;
+    left:auto;
+
+    display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  padding-top: 1px; /* Location of the box */
+  right: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.356);
+
+    /*border: 1px solid #7e2b2b00;
     max-width: 450;
     max-height: 100%;
     z-index: 999;
-    position: fixed;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.356);
     margin-top: 10;
-    overflow-x: hidden;
     left:auto;
     overflow-y: auto;
-    display: inline-block;
+    display: inline-block; */
 
 }
+
+.ui-widget-content {
+   border: 1px solid #aaaaaa00;
+   background: #ffffffd7;
+   color: #070707;
+}
+
+   .ui-widget-content .images img {
+       width: 445px;
+       height: 300px;
+       object-fit: contain;
+       cursor: zoom-in;
+       border-color: #00000000;
+       
+   }
+
+.ui-widget {
+   font-family: Verdana,Arial,sans-serif;
+   font-size: .7em;
+}
+
+
 
 .description {
-    overflow-x: hidden;
-    width:410;
-    font-size:14;
-    max-height: 275;
-    line-height: 1.8em;
-    margin-bottom: 30;
+   overflow-x: hidden;
+   width:103%;
+   font-size:14;
+   max-height: 275;
+   line-height: 1.8em;
+   margin-bottom: 30;
 }
 
 
-.ui-dialog {
-    top: 0;
-    right: 0;
-    padding: .2em;
-    outline: 0;
-    bottom:0;
+.slick-slide img {
+    width: fit-content !important;
+    height: 300px !important;
+    object-fit: contain !important;
+    cursor: zoom-in !important;
+    border-color: #00000000;
 }
+
+.slick-slider {
+    background-color: none;
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    position: relative;
+}
+
 
 .ui-widget-header {
-    border: none;
-    background: none;
-    color: #00000000;
-    font-weight: bold;
+   border: none;
+   background: none;
+   color: #00000000;
+   font-weight: bold;
 }
 
 .ui-dialog .ui-dialog-title {
-    cursor:grab ;
+   cursor:grab ;
 }
 
 .ui-draggable .ui-dialog-titlebar {
-    cursor: grab;
+   cursor: grab;
 }
 
 .ui-dialog .ui-dialog-content {
-    padding: .5em 2em;
-    overflow-x: hidden;
-    overflow-y: auto;
+   padding: .5em 2em;
+   overflow-x: hidden;
+   overflow-y: auto;
 }
 
 .ui-dialog .ui-dialog-titlebar-close {
-    position: absolute;
-    right: .3em;
-    top: 50%;
-    width: 20px;
-    margin: -10px 0 0 0;
-    padding: 1px;
-    height: 20px;
+   position: absolute;
+   right: .3em;
+   top: 50%;
+   width: 20px;
+   margin: -10px 0 0 0;
+   padding: 1px;
+   height: 20px;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-    border: none;
-    background-image: url("https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/X.svg") !important;
-    font-weight: normal;
-    background-color: #08080800;
+   border: none;
+   background-image: url("https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/X.svg") !important;
+   font-weight: normal;
+   background-color: #08080800;
 }
 
 .ui-button-icon-only .ui-icon {
-    position: none;
-    top: 50%;
-    left: 50%;
-    margin-top: -8px;
-    margin-left: -8px;
-    background-image: url("https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/X.svg") !important;
+   position: none;
+   top: 50%;
+   left: 50%;
+   margin-top: -8px;
+   margin-left: -8px;
+   background-image: url("https://cdn.jsdelivr.net/gh/luzegrace/ACSA-Wesbite-/dom_site/images/X.svg") !important;
 }
 
 h1.title {
-    font-size:x-large;
-    color: rgba(255, 255, 255, 0.623);
-    -webkit-text-stroke: 1.7px #da0000; /* width and color */
+   font-size:x-large;
+   color: rgba(255, 255, 255, 0.623);
+   -webkit-text-stroke: 1.7px #da0000; /* width and color */
+   text-transform: uppercase;
 }
 
 h2.people {
+   font-size:medium;
+}
+
+h2.subtitle {
+   font-size:large;
+   color: rgb(0, 0, 0);
 }
 
 .ui-footer {
-    font-weight: bold;
-    color: rgb(5, 5, 5);
+   font-weight: 550;
+   color: rgb(5, 5, 5);
 }
 
 p.tags {
-    text-indent: 20px;
-    -webkit-text-stroke: 1.2px #da000000; /* width and color */
-    color: rgb(7, 7, 7);
+   text-indent: 20px;
+   font-weight: lighter;
+   color: rgb(7, 7, 7);
+   text-transform: uppercase;
 }
 p.session {
-    text-indent: 20px;
-     -webkit-text-stroke: 1.2px #da000000; /* width and color */
-     color: rgb(7, 7, 7);
+   text-indent: 20px;
+   font-weight: lighter;
+    color: rgb(7, 7, 7);
 }
+
+
+
+
 /*
  ///////////////////////////////////////////////////////
  Scrollbar
  ////////////////////////////////////////////////////
  */
+
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -633,18 +685,7 @@ p.session {
  image carousel
  ////////////////////////////////////////////////////
  */
- .slick-slider {
-    border-color: none;
-    width: 395px;
-    height: 300px;
-    background-color: none;
-}
 
-.slick-slide img {
-    display: block;
-    border: none;
-    border-color: none;
-}
 /*
  ///////////////////////////////////////////////////////
  filters for arrows
