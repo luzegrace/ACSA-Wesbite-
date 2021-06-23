@@ -201,7 +201,8 @@ var siteModule = (function () {
     var configurePopupModal = function () {
         $("#popup-modal").dialog({
             autoOpen: false,
-            width: 450 * $(window).width(),
+            width: .7 * $(window).width(),
+            //width: 450 * $(window).width(),
             //width: 0.70 * $(window).width(), // may need be dynamic based on window size
             resizable: true,
             close: function (e) {
@@ -236,14 +237,15 @@ var siteModule = (function () {
                 slidesToScroll: 1,
                 centerMode: true,
                 variableWidth: true,
-                draggable: false
+                draggable: false,
+              
             });
             imageBox.show();
         }
         else if (selectedProject.images) {
             var slickBox = $("<div class=\"slickbox\"></div>");
-            selectedProject.images.forEach(function (imageUrl, index) {
-                var imageDiv = $(`<div><a href="${imageUrl}" data-lightbox="projectImages"><img src="${imageUrl}" /></a></div>`);
+            selectedProject.images.forEach(function (image) {
+                var imageDiv = $(`<div><a href="${image}" data-lightbox="projectImages"><img src="${image}" /></a></div>`);
                 imageDiv.appendTo(slickBox);
             });
             slickBox.appendTo(imageBox);
@@ -257,6 +259,7 @@ var siteModule = (function () {
                 centerMode: true,
                 variableWidth: true,
                 draggable: true,
+              
             });
             imageBox.show();
         }
