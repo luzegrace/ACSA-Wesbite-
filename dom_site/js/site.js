@@ -199,11 +199,17 @@ var siteModule = (function () {
     };
 
     var configurePopupModal = function () {
+        $("#slickbox").slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 300,
+            draggable: false
+        });
+
         $("#popup-modal").dialog({
             autoOpen: false,
             width: .7 * $(window).width(),
-            //width: 450 * $(window).width(),
-            //width: 0.70 * $(window).width(), // may need be dynamic based on window size
             resizable: true,
             close: function (e) {
                 handleProjectSelection(e, -1);
@@ -225,45 +231,28 @@ var siteModule = (function () {
         modal.find("p.session").html(selectedProject.session);
 
         var imageBox = modal.find("div.images");
-        imageBox.empty();
+        var slickBox = $("#slickbox");
+        var slideCount = slickBox.find("div.imageslide").length;
+
+        for (i = 0; i < slideCount; i++) {
+            // remove each existing slickbox slide
+            slickBox.slick("slickRemove", 0);
+        }
+
         if (selectedProject.image) {
-            var slickBox = $("<div class=\"slickbox\"></div>");
-            var imageDiv = $(`<div><img data-lazy="${selectedProject.image}" /></div>`);
-            var imageDiv = $(`<div><a href="${selectedProject.image}" data-lightbox="projectImages"><img src="${selectedProject.image}" /></a></div>`);
-            imageDiv.appendTo(slickBox);
-            slickBox.appendTo(imageBox);
-            slickBox.slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode: true,
-                variableWidth: true,
-                draggable: false,
-              
-            });
+            slickBox.slick("slickAdd", `<div class="imageslide"><a href="${selectedProject.image}" data-lightbox="projectImages"><img src="${selectedProject.image}" /></a></div>`);
+            slickBox.slick("slickSetOption", "dots", false, true);
             imageBox.show();
         }
         else if (selectedProject.images) {
-            var slickBox = $("<div class=\"slickbox\"></div>");
             selectedProject.images.forEach(function (image) {
-                var imageDiv = $(`<div><a href="${image}" data-lightbox="projectImages"><img src="${image}" /></a></div>`);
-                imageDiv.appendTo(slickBox);
+                slickBox.slick("slickAdd", `<div class="imageslide"><a href="${image}" data-lightbox="projectImages"><img src="${image}" /></a></div>`);
             });
-            slickBox.appendTo(imageBox);
-            slickBox.slick({
-                //autoplaySpeed: 5,
-                dots: true,
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                speed: 300,
-                centerMode: true,
-                variableWidth: true,
-                draggable: true,
-              
-            });
+            slickBox.slick("slickSetOption", "dots", selectedProject.images.length > 1, true);
             imageBox.show();
         }
         else {
+            slickBox.slick("slickSetOption", "dots", false, true);
             imageBox.hide();
         }
 
@@ -279,6 +268,7 @@ var siteModule = (function () {
                 }
             )
             .dialog("open");
+        slickBox.slick("refresh");
     };
 
     var hideProjectData = function () {
@@ -317,15 +307,6 @@ var siteModule = (function () {
                 handleProjectSelection(e, -1);
             }
         );
-
-        //$("#textSearch").on(
-        //    "click",
-        //    ".cleartextsearch",
-        //    function (e) {
-        //        $("#textSearch").val();
-        //        handleTextSearch("");
-        //    }
-        //);
 
         $(".buttoncontainer").on(
             "click",

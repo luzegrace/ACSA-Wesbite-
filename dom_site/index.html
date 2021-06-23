@@ -12,7 +12,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
 
-    <script src="./js/data2.js"></script>
+    <script src="./js/data.js"></script>
     <script src="./js/site.js"></script>
 </head>
 <body>
@@ -123,17 +123,15 @@
     <!-- Modal setup -->
     <div data-role="popup" id="popup-modal" data-arrow="true" style="display:none" >
         <div class="ui-header">
-            <!-- <a class="ui-btn-left ui-btn-corner-all ui-btn">-->
-            </img>
-            <!--</a>-->
             <h1 class="title"></h1>
             <h2 class="subtitle"></h2>
             <h2 class="people"></h2>
         </div>
         <div role="main" class="ui-content ui-draggable-handle">
-            <div class="images" ></div>
-            <div class="description"></div>
+            <div class="images">
+                <div id="slickbox"></div>
             </div>
+            <div class="description"></div>
             <div class="ui-footer">TAGS:
                 <p class="tags"></p>
                 SESSION:
